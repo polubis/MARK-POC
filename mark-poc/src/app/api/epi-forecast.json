@@ -1,0 +1,3280 @@
+{
+  "type": "success",
+  "patientFlowType": 4,
+  "id": 1,
+  "timeHorizon": 3,
+  "data": {
+    "labels": [
+      {
+        "id": 1,
+        "name": "Patients with lung cancer",
+        "order": 1,
+        "value": 0.0,
+        "isEnabled": true,
+        "originalName": "Patients with lung cancer",
+        "fieldType": "number",
+        "editable": true,
+        "years": [
+          {
+            "field": 48976.0,
+            "input": 48976.0,
+            "diff": 0.0,
+            "output": 48976.0
+          },
+          {
+            "field": 48976.0,
+            "input": 48976.0,
+            "diff": 0.0,
+            "output": 48976.0
+          },
+          {
+            "field": 48976.0,
+            "input": 48976.0,
+            "diff": 0.0,
+            "output": 48976.0
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "of patients with NSCLC",
+        "order": 2,
+        "value": 0.0,
+        "isEnabled": true,
+        "originalName": "of patients with NSCLC",
+        "fieldType": "percent",
+        "editable": true,
+        "years": [
+          {
+            "field": 74.0,
+            "input": 48976.0,
+            "diff": 12733.76,
+            "output": 36242.24
+          },
+          {
+            "field": 74.0,
+            "input": 48976.0,
+            "diff": 12733.76,
+            "output": 36242.24
+          },
+          {
+            "field": 74.0,
+            "input": 48976.0,
+            "diff": 12733.76,
+            "output": 36242.24
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "of patients with advanced NSCLC",
+        "order": 3,
+        "value": 0.0,
+        "isEnabled": true,
+        "originalName": "of patients with advanced NSCLC",
+        "fieldType": "percent",
+        "editable": true,
+        "years": [
+          {
+            "field": 96.0,
+            "input": 36242.24,
+            "diff": 1449.69,
+            "output": 34792.55
+          },
+          {
+            "field": 96.0,
+            "input": 36242.24,
+            "diff": 1449.69,
+            "output": 34792.55
+          },
+          {
+            "field": 96.0,
+            "input": 36242.24,
+            "diff": 1449.69,
+            "output": 34792.55
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "tested for ALK",
+        "order": 4,
+        "value": 0.0,
+        "isEnabled": true,
+        "originalName": "tested for ALK",
+        "fieldType": "percent",
+        "editable": true,
+        "years": [
+          {
+            "field": 72.0,
+            "input": 34792.55,
+            "diff": 9741.91,
+            "output": 25050.64
+          },
+          {
+            "field": 72.0,
+            "input": 34792.55,
+            "diff": 9741.91,
+            "output": 25050.64
+          },
+          {
+            "field": 72.0,
+            "input": 34792.55,
+            "diff": 9741.91,
+            "output": 25050.64
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "of patients with ALK +",
+        "order": 5,
+        "value": 0.0,
+        "isEnabled": true,
+        "originalName": "of patients with ALK +",
+        "fieldType": "percent",
+        "editable": true,
+        "years": [
+          {
+            "field": 5.0,
+            "input": 25050.64,
+            "diff": 23798.11,
+            "output": 1252.53
+          },
+          {
+            "field": 5.0,
+            "input": 25050.64,
+            "diff": 23798.11,
+            "output": 1252.53
+          },
+          {
+            "field": 5.0,
+            "input": 25050.64,
+            "diff": 23798.11,
+            "output": 1252.53
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "of patients treated with crizotinib",
+        "order": 6,
+        "value": 0.0,
+        "isEnabled": true,
+        "originalName": "of patients treated with crizotinib",
+        "fieldType": "percent",
+        "editable": true,
+        "years": [
+          {
+            "field": 86.0,
+            "input": 1252.53,
+            "diff": 175.35,
+            "output": 1077.18
+          },
+          {
+            "field": 86.0,
+            "input": 1252.53,
+            "diff": 175.35,
+            "output": 1077.18
+          },
+          {
+            "field": 86.0,
+            "input": 1252.53,
+            "diff": 175.35,
+            "output": 1077.18
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "of patients failed crizotinib",
+        "order": 7,
+        "value": 0.0,
+        "isEnabled": true,
+        "originalName": "of patients failed crizotinib",
+        "fieldType": "percent",
+        "editable": true,
+        "years": [
+          {
+            "field": 50.0,
+            "input": 1077.18,
+            "diff": 538.59,
+            "output": 538.59
+          },
+          {
+            "field": 50.0,
+            "input": 1077.18,
+            "diff": 538.59,
+            "output": 538.59
+          },
+          {
+            "field": 50.0,
+            "input": 1077.18,
+            "diff": 538.59,
+            "output": 538.59
+          }
+        ]
+      }
+    ],
+    "sameTopDownForecastForEachYear": false,
+    "isMortalityEnabled": false,
+    "mortality": 0.0,
+    "isPrevalenceEnabled": false,
+    "prevalence": 0.0,
+    "isIncidenceEnabled": false,
+    "incidence": {
+      "id": 1,
+      "adaptationId": 1,
+      "malePopulationModifier": 49.0,
+      "populationMale": 2983393.42,
+      "populationFemale": 3105164.58,
+      "expectedCasesTotalMale": 2803.4,
+      "expectedCasesTotalFemale": 694.5,
+      "expectedCasesTotal": 3497.9,
+      "incidenceCountries": [
+        {
+          "id": 118,
+          "name": "United Kingdom",
+          "code": "GB",
+          "locale": "en-GB",
+          "currencyName": "British Pound Sterling",
+          "currencyCode": "GBP",
+          "currencySymbol": "\u00a3",
+          "isActive": true,
+          "isEu": false
+        },
+        {
+          "id": 181,
+          "name": "Spain",
+          "code": "ES",
+          "locale": "es",
+          "currencyName": "Euro",
+          "currencyCode": "EUR",
+          "currencySymbol": "\u20ac",
+          "isActive": true,
+          "isEu": true
+        },
+        {
+          "id": 259,
+          "name": "Italy",
+          "code": "IT",
+          "locale": "it",
+          "currencyName": "Euro",
+          "currencyCode": "EUR",
+          "currencySymbol": "\u20ac",
+          "isActive": true,
+          "isEu": true
+        },
+        {
+          "id": 112,
+          "name": "Germany",
+          "code": "DE",
+          "locale": "en",
+          "currencyName": "Euro",
+          "currencyCode": "EUR",
+          "currencySymbol": "\u20ac",
+          "isActive": true,
+          "isEu": true
+        },
+        {
+          "id": 185,
+          "name": "France",
+          "code": "FR",
+          "locale": "en",
+          "currencyName": "Euro",
+          "currencyCode": "EUR",
+          "currencySymbol": "\u20ac",
+          "isActive": false,
+          "isEu": true
+        }
+      ],
+      "incidenceLoadedCountry": {
+        "id": 181,
+        "name": "Spain",
+        "code": "ES",
+        "locale": "es",
+        "currencyName": "Euro",
+        "currencyCode": "EUR",
+        "currencySymbol": "\u20ac",
+        "isActive": true,
+        "isEu": true
+      },
+      "incidenceSettings": [
+        {
+          "name": "1-4",
+          "ageDistributionMale": 6.0,
+          "ageDistributionFemale": 6.0,
+          "incidencePer100000Male": 0.0,
+          "incidencePer100000Female": 0.0,
+          "expectedCasesMale": 0.0,
+          "expectedCasesFemale": 0.0,
+          "order": 0,
+          "bodyWeight": null
+        },
+        {
+          "name": "5-9",
+          "ageDistributionMale": 7.0,
+          "ageDistributionFemale": 6.0,
+          "incidencePer100000Male": 0.171,
+          "incidencePer100000Female": 0.0,
+          "expectedCasesMale": 0.357112192374,
+          "expectedCasesFemale": 0.0,
+          "order": 1,
+          "bodyWeight": null
+        },
+        {
+          "name": "10-14",
+          "ageDistributionMale": 5.0,
+          "ageDistributionFemale": 5.0,
+          "incidencePer100000Male": 0.0,
+          "incidencePer100000Female": 0.0,
+          "expectedCasesMale": 0.0,
+          "expectedCasesFemale": 0.0,
+          "order": 2,
+          "bodyWeight": null
+        },
+        {
+          "name": "15-19",
+          "ageDistributionMale": 6.0,
+          "ageDistributionFemale": 5.0,
+          "incidencePer100000Male": 0.077,
+          "incidencePer100000Female": 0.0,
+          "expectedCasesMale": 0.137832776004,
+          "expectedCasesFemale": 0.0,
+          "order": 3,
+          "bodyWeight": null
+        },
+        {
+          "name": "20-24",
+          "ageDistributionMale": 7.0,
+          "ageDistributionFemale": 7.0,
+          "incidencePer100000Male": 0.0,
+          "incidencePer100000Female": 0.101,
+          "expectedCasesMale": 0.0,
+          "expectedCasesFemale": 0.219535135806,
+          "order": 4,
+          "bodyWeight": null
+        },
+        {
+          "name": "25-29",
+          "ageDistributionMale": 7.0,
+          "ageDistributionFemale": 6.0,
+          "incidencePer100000Male": 0.477,
+          "incidencePer100000Female": 0.249,
+          "expectedCasesMale": 0.996155062938,
+          "expectedCasesFemale": 0.463911588252,
+          "order": 5,
+          "bodyWeight": null
+        },
+        {
+          "name": "30-34",
+          "ageDistributionMale": 6.0,
+          "ageDistributionFemale": 7.0,
+          "incidencePer100000Male": 1.955,
+          "incidencePer100000Female": 2.374,
+          "expectedCasesMale": 3.49952048166,
+          "expectedCasesFemale": 5.160162499044,
+          "order": 6,
+          "bodyWeight": null
+        },
+        {
+          "name": "35-39",
+          "ageDistributionMale": 7.0,
+          "ageDistributionFemale": 6.0,
+          "incidencePer100000Male": 6.123,
+          "incidencePer100000Female": 4.859,
+          "expectedCasesMale": 12.787122537462,
+          "expectedCasesFemale": 9.052796816532,
+          "order": 7,
+          "bodyWeight": null
+        },
+        {
+          "name": "40-44",
+          "ageDistributionMale": 6.0,
+          "ageDistributionFemale": 7.0,
+          "incidencePer100000Male": 20.171,
+          "incidencePer100000Female": 17.337,
+          "expectedCasesMale": 36.106817204892,
+          "expectedCasesFemale": 37.683966826422,
+          "order": 8,
+          "bodyWeight": null
+        },
+        {
+          "name": "45-49",
+          "ageDistributionMale": 7.0,
+          "ageDistributionFemale": 7.0,
+          "incidencePer100000Male": 51.829,
+          "incidencePer100000Female": 33.066,
+          "expectedCasesMale": 108.23840829563,
+          "expectedCasesFemale": 71.872760401596,
+          "order": 9,
+          "bodyWeight": null
+        },
+        {
+          "name": "50-54",
+          "ageDistributionMale": 7.0,
+          "ageDistributionFemale": 7.0,
+          "incidencePer100000Male": 94.782,
+          "incidencePer100000Female": 44.842,
+          "expectedCasesMale": 197.94039659411,
+          "expectedCasesFemale": 97.469253067452,
+          "order": 10,
+          "bodyWeight": null
+        },
+        {
+          "name": "55-59",
+          "ageDistributionMale": 7.0,
+          "ageDistributionFemale": 6.0,
+          "incidencePer100000Male": 163.565,
+          "incidencePer100000Female": 32.304,
+          "expectedCasesMale": 341.58512131961,
+          "expectedCasesFemale": 60.185541955392,
+          "order": 11,
+          "bodyWeight": null
+        },
+        {
+          "name": "60-64",
+          "ageDistributionMale": 5.0,
+          "ageDistributionFemale": 5.0,
+          "incidencePer100000Male": 211.301,
+          "incidencePer100000Female": 42.005,
+          "expectedCasesMale": 315.19700651971,
+          "expectedCasesFemale": 65.21621909145,
+          "order": 12,
+          "bodyWeight": null
+        },
+        {
+          "name": "65-69",
+          "ageDistributionMale": 6.0,
+          "ageDistributionFemale": 6.0,
+          "incidencePer100000Male": 291.159,
+          "incidencePer100000Female": 45.643,
+          "expectedCasesMale": 521.18510686427,
+          "expectedCasesFemale": 85.037416154964,
+          "order": 13,
+          "bodyWeight": null
+        },
+        {
+          "name": "70-74",
+          "ageDistributionMale": 4.0,
+          "ageDistributionFemale": 4.0,
+          "incidencePer100000Male": 349.088,
+          "incidencePer100000Female": 54.914,
+          "expectedCasesMale": 416.58673688038,
+          "expectedCasesFemale": 68.206803098448,
+          "order": 14,
+          "bodyWeight": null
+        },
+        {
+          "name": "75-79",
+          "ageDistributionMale": 3.0,
+          "ageDistributionFemale": 4.0,
+          "incidencePer100000Male": 427.488,
+          "incidencePer100000Female": 58.413,
+          "expectedCasesMale": 382.60946589869,
+          "expectedCasesFemale": 72.552791444616,
+          "order": 15,
+          "bodyWeight": null
+        },
+        {
+          "name": "80-84",
+          "ageDistributionMale": 2.0,
+          "ageDistributionFemale": 3.0,
+          "incidencePer100000Male": 422.669,
+          "incidencePer100000Female": 63.85,
+          "expectedCasesMale": 252.1975826876,
+          "expectedCasesFemale": 59.4794275299,
+          "order": 16,
+          "bodyWeight": null
+        },
+        {
+          "name": "85+",
+          "ageDistributionMale": 2.0,
+          "ageDistributionFemale": 3.0,
+          "incidencePer100000Male": 358.583,
+          "incidencePer100000Female": 66.452,
+          "expectedCasesMale": 213.95883254477,
+          "expectedCasesFemale": 61.903319001048,
+          "order": 17,
+          "bodyWeight": null
+        }
+      ],
+      "ageDistributionTotalMale": 100.0,
+      "ageDistributionTotalFemale": 100.0,
+      "isDistributionWeightEnabled": false
+    },
+    "totalPopulation": 6088558,
+    "isCostPerMemberPerMonthChartEnabled": true,
+    "total": {
+      "years": [
+        {
+          "output": 539.0
+        },
+        {
+          "output": 539.0
+        },
+        {
+          "output": 539.0
+        }
+      ]
+    }
+  },
+  "totalPopulationPreset": {
+    "tree": [
+      {
+        "id": 1,
+        "label": "England",
+        "totalPopulation": null,
+        "children": [
+          {
+            "id": 5,
+            "label": "Trusts",
+            "totalPopulation": null,
+            "children": [
+              {
+                "id": 12,
+                "label": "Aintree University Hospitals NHS Foundation Trust",
+                "totalPopulation": 336264,
+                "children": []
+              },
+              {
+                "id": 13,
+                "label": "Airedale NHS Foundation Trust",
+                "totalPopulation": 246570,
+                "children": []
+              },
+              {
+                "id": 14,
+                "label": "Alder Hey Children's NHS Foundation Trust",
+                "totalPopulation": 12750,
+                "children": []
+              },
+              {
+                "id": 15,
+                "label": "Ashford & St Peter's Hospital NHS Trust",
+                "totalPopulation": 245602,
+                "children": []
+              },
+              {
+                "id": 16,
+                "label": "Barking Havering & Redbridge Univ Hosps NHS Trust",
+                "totalPopulation": 653880,
+                "children": []
+              },
+              {
+                "id": 17,
+                "label": "Barnet & Chase Farm Hospitals NHS Trust",
+                "totalPopulation": 380651,
+                "children": []
+              },
+              {
+                "id": 18,
+                "label": "Barnsley Hospital NHS Foundation Trust",
+                "totalPopulation": 203157,
+                "children": []
+              },
+              {
+                "id": 19,
+                "label": "Barts and The London NHS Trust",
+                "totalPopulation": 846843,
+                "children": []
+              },
+              {
+                "id": 20,
+                "label": "Basildon and Thurrock University Hospital NHSFT",
+                "totalPopulation": 201232,
+                "children": []
+              },
+              {
+                "id": 21,
+                "label": "Basingstoke and North Hampshire NHSFT",
+                "totalPopulation": 244926,
+                "children": []
+              },
+              {
+                "id": 22,
+                "label": "Bedford Hospital NHS Trust",
+                "totalPopulation": 193418,
+                "children": []
+              },
+              {
+                "id": 23,
+                "label": "Birmingham Children's Hosp NHS Foundation Trust",
+                "totalPopulation": 0,
+                "children": []
+              },
+              {
+                "id": 24,
+                "label": "Birmingham Women's NHS Foundation Trust",
+                "totalPopulation": 0,
+                "children": []
+              },
+              {
+                "id": 25,
+                "label": "Blackpool, Fylde & Wyre Hospitals NHSFT",
+                "totalPopulation": 465495,
+                "children": []
+              },
+              {
+                "id": 26,
+                "label": "Bradford Teaching Hospitals NHS Foundation Trust",
+                "totalPopulation": 293541,
+                "children": []
+              },
+              {
+                "id": 27,
+                "label": "Brighton and Sussex University Hospitals NHS Trust",
+                "totalPopulation": 452158,
+                "children": []
+              },
+              {
+                "id": 28,
+                "label": "Bromley Hospitals NHS Trust",
+                "totalPopulation": 246473,
+                "children": []
+              },
+              {
+                "id": 29,
+                "label": "Buckinghamshire Hospitals NHS Trust",
+                "totalPopulation": 373224,
+                "children": []
+              },
+              {
+                "id": 30,
+                "label": "Burton Hospitals NHS Foundation Trust",
+                "totalPopulation": 70698,
+                "children": []
+              },
+              {
+                "id": 31,
+                "label": "Calderdale & Huddersfield NHS Foundation Trust",
+                "totalPopulation": 396018,
+                "children": []
+              },
+              {
+                "id": 32,
+                "label": "Cambridge University Hosps NHS Foundation Trust",
+                "totalPopulation": 622225,
+                "children": []
+              },
+              {
+                "id": 33,
+                "label": "Central Manchester University Hospitals NHSFT",
+                "totalPopulation": 499474,
+                "children": []
+              },
+              {
+                "id": 34,
+                "label": "Chelsea and Westminster Hosp NHS Foundation Trust",
+                "totalPopulation": 132951,
+                "children": []
+              },
+              {
+                "id": 35,
+                "label": "Chesterfield Royal Hospital NHS Foundation Trust",
+                "totalPopulation": 183153,
+                "children": []
+              },
+              {
+                "id": 36,
+                "label": "City Hospitals Sunderland NHS Foundation Trust",
+                "totalPopulation": 309370,
+                "children": []
+              },
+              {
+                "id": 37,
+                "label": "Clatterbridge Centre for Oncology NHSFT",
+                "totalPopulation": 4271,
+                "children": []
+              },
+              {
+                "id": 38,
+                "label": "Colchester Hospital University NHSFT",
+                "totalPopulation": 350107,
+                "children": []
+              },
+              {
+                "id": 39,
+                "label": "Countess of Chester Hospital NHS Foundation Trust",
+                "totalPopulation": 266352,
+                "children": []
+              },
+              {
+                "id": 40,
+                "label": "County Durham & Darlington NHS Foundation Trust",
+                "totalPopulation": 503011,
+                "children": []
+              },
+              {
+                "id": 41,
+                "label": "Coventry & Warwickshire Partnership NHS Trust",
+                "totalPopulation": 0,
+                "children": []
+              },
+              {
+                "id": 42,
+                "label": "Dartford & Gravesham NHS Trust",
+                "totalPopulation": 110517,
+                "children": []
+              },
+              {
+                "id": 43,
+                "label": "Derby Hospitals NHS Foundation Trust",
+                "totalPopulation": 534943,
+                "children": []
+              },
+              {
+                "id": 44,
+                "label": "Doncaster and Bassetlaw Hosps NHS Foundation Trust",
+                "totalPopulation": 424125,
+                "children": []
+              },
+              {
+                "id": 45,
+                "label": "Dorset County Hospital NHS Foundation Trust",
+                "totalPopulation": 169509,
+                "children": []
+              },
+              {
+                "id": 46,
+                "label": "Ealing Hospital NHS Trust",
+                "totalPopulation": 248137,
+                "children": []
+              },
+              {
+                "id": 47,
+                "label": "East and North Hertfordshire NHS Trust",
+                "totalPopulation": 152372,
+                "children": []
+              },
+              {
+                "id": 48,
+                "label": "East Cheshire NHS Trust",
+                "totalPopulation": 82019,
+                "children": []
+              },
+              {
+                "id": 49,
+                "label": "East Kent Hospitals University NHSFT",
+                "totalPopulation": 659435,
+                "children": []
+              },
+              {
+                "id": 50,
+                "label": "East Lancashire Hospitals NHS Trust",
+                "totalPopulation": 452790,
+                "children": []
+              },
+              {
+                "id": 51,
+                "label": "East Sussex Hospitals NHS Trust",
+                "totalPopulation": 375704,
+                "children": []
+              },
+              {
+                "id": 52,
+                "label": "Epsom and St Helier University Hospitals NHS Trust",
+                "totalPopulation": 433452,
+                "children": []
+              },
+              {
+                "id": 53,
+                "label": "Frimley Park Hospital NHS Foundation Trust",
+                "totalPopulation": 311956,
+                "children": []
+              },
+              {
+                "id": 54,
+                "label": "Gateshead Health NHS Foundation Trust",
+                "totalPopulation": 147104,
+                "children": []
+              },
+              {
+                "id": 55,
+                "label": "George Eliot Hospital NHS Trust",
+                "totalPopulation": 201084,
+                "children": []
+              },
+              {
+                "id": 56,
+                "label": "Gloucestershire Hospitals NHS Foundation Trust",
+                "totalPopulation": 559933,
+                "children": []
+              },
+              {
+                "id": 57,
+                "label": "Great Ormond Street Hospital for Children NHST",
+                "totalPopulation": 0,
+                "children": []
+              },
+              {
+                "id": 58,
+                "label": "Great Western Hospitals NHS Foundation Trust",
+                "totalPopulation": 303185,
+                "children": []
+              },
+              {
+                "id": 59,
+                "label": "Guy's and St Thomas' NHS Foundation Trust",
+                "totalPopulation": 511390,
+                "children": []
+              },
+              {
+                "id": 60,
+                "label": "Harrogate and District NHS Foundation Trust",
+                "totalPopulation": 184907,
+                "children": []
+              },
+              {
+                "id": 61,
+                "label": "Heart of England NHS Foundation Trust",
+                "totalPopulation": 1030493,
+                "children": []
+              },
+              {
+                "id": 62,
+                "label": "Heatherwood and Wexham Park Hospitals NHSFT",
+                "totalPopulation": 303686,
+                "children": []
+              },
+              {
+                "id": 63,
+                "label": "Hereford Hospitals NHS Trust",
+                "totalPopulation": 154511,
+                "children": []
+              },
+              {
+                "id": 64,
+                "label": "Hillingdon Hospital NHS Trust",
+                "totalPopulation": 158346,
+                "children": []
+              },
+              {
+                "id": 65,
+                "label": "Hinchingbrooke Health Care NHS Trust",
+                "totalPopulation": 60906,
+                "children": []
+              },
+              {
+                "id": 66,
+                "label": "Homerton University Hospital NHS Foundation Trust",
+                "totalPopulation": 90990,
+                "children": []
+              },
+              {
+                "id": 67,
+                "label": "Hull and East Yorkshire Hospitals NHS Trust",
+                "totalPopulation": 469012,
+                "children": []
+              },
+              {
+                "id": 68,
+                "label": "Imperial College Healthcare NHS Trust",
+                "totalPopulation": 563737,
+                "children": []
+              },
+              {
+                "id": 69,
+                "label": "Ipswich Hospital NHS Trust",
+                "totalPopulation": 296036,
+                "children": []
+              },
+              {
+                "id": 70,
+                "label": "Isle of Wight NHS Primary Care Trust",
+                "totalPopulation": 0,
+                "children": []
+              },
+              {
+                "id": 71,
+                "label": "James Paget University Hosps NHS Foundation Trust",
+                "totalPopulation": 215060,
+                "children": []
+              },
+              {
+                "id": 72,
+                "label": "Kettering General Hospital NHS Foundation Trust",
+                "totalPopulation": 326980,
+                "children": []
+              },
+              {
+                "id": 73,
+                "label": "King's College Hospital NHS Foundation Trust",
+                "totalPopulation": 365307,
+                "children": []
+              },
+              {
+                "id": 74,
+                "label": "Kingston Hospital NHS Trust",
+                "totalPopulation": 267200,
+                "children": []
+              },
+              {
+                "id": 75,
+                "label": "Lancashire Teaching Hospitals NHS Foundation Trust",
+                "totalPopulation": 228686,
+                "children": []
+              },
+              {
+                "id": 76,
+                "label": "Liverpool Heart & Chest Hospital NHSF Trust",
+                "totalPopulation": 36283,
+                "children": []
+              },
+              {
+                "id": 77,
+                "label": "Liverpool Women's NHS Foundation Trust",
+                "totalPopulation": 0,
+                "children": []
+              },
+              {
+                "id": 78,
+                "label": "Luton and Dunstable Hospital NHS Foundation Trust",
+                "totalPopulation": 290381,
+                "children": []
+              },
+              {
+                "id": 79,
+                "label": "Maidstone and Tunbridge Wells NHS Trust",
+                "totalPopulation": 534819,
+                "children": []
+              },
+              {
+                "id": 80,
+                "label": "Mayday Healthcare NHS Trust",
+                "totalPopulation": 300063,
+                "children": []
+              },
+              {
+                "id": 81,
+                "label": "Medway NHS Foundation Trust",
+                "totalPopulation": 314058,
+                "children": []
+              },
+              {
+                "id": 82,
+                "label": "Mid Cheshire Hospitals NHS Foundation Trust",
+                "totalPopulation": 196845,
+                "children": []
+              },
+              {
+                "id": 83,
+                "label": "Mid Staffordshire NHS Foundation Trust",
+                "totalPopulation": 329836,
+                "children": []
+              },
+              {
+                "id": 84,
+                "label": "Mid-Essex Hospital Services NHS Trust",
+                "totalPopulation": 213023,
+                "children": []
+              },
+              {
+                "id": 85,
+                "label": "Milton Keynes Hospital NHS Foundation Trust",
+                "totalPopulation": 244060,
+                "children": []
+              },
+              {
+                "id": 86,
+                "label": "Moorfields Eye Hospital NHS Foundation Trust",
+                "totalPopulation": 0,
+                "children": []
+              },
+              {
+                "id": 87,
+                "label": "Newham University Hospital NHS Trust",
+                "totalPopulation": 209556,
+                "children": []
+              },
+              {
+                "id": 88,
+                "label": "Norfolk and Norwich University Hospitals NHSFT",
+                "totalPopulation": 486725,
+                "children": []
+              },
+              {
+                "id": 89,
+                "label": "North Bristol NHS Trust",
+                "totalPopulation": 429763,
+                "children": []
+              },
+              {
+                "id": 90,
+                "label": "North Cumbria University Hospitals NHS Trust",
+                "totalPopulation": 406637,
+                "children": []
+              },
+              {
+                "id": 91,
+                "label": "North Middlesex University Hospital NHS Trust",
+                "totalPopulation": 113705,
+                "children": []
+              },
+              {
+                "id": 92,
+                "label": "North Staffordshire Combined Healthcare NHS Trust",
+                "totalPopulation": 0,
+                "children": []
+              },
+              {
+                "id": 93,
+                "label": "North Tees & Hartlepool NHS Foundation Trust",
+                "totalPopulation": 265124,
+                "children": []
+              },
+              {
+                "id": 94,
+                "label": "Northampton General Hospital NHS Trust",
+                "totalPopulation": 251446,
+                "children": []
+              },
+              {
+                "id": 95,
+                "label": "Northern Devon Healthcare NHS Trust",
+                "totalPopulation": 224572,
+                "children": []
+              },
+              {
+                "id": 96,
+                "label": "Northern Lincolnshire and Goole Hospitals NHSFT",
+                "totalPopulation": 377062,
+                "children": []
+              },
+              {
+                "id": 97,
+                "label": "Northumbria Healthcare NHS Foundation Trust",
+                "totalPopulation": 369950,
+                "children": []
+              },
+              {
+                "id": 98,
+                "label": "Nottingham University Hospitals NHS Trust",
+                "totalPopulation": 828216,
+                "children": []
+              },
+              {
+                "id": 99,
+                "label": "Nuffield Orthopaedic Centre NHS Trust",
+                "totalPopulation": 0,
+                "children": []
+              },
+              {
+                "id": 100,
+                "label": "Oxford Radcliffe Hospitals NHS Trust",
+                "totalPopulation": 799466,
+                "children": []
+              },
+              {
+                "id": 101,
+                "label": "Papworth Hospital NHS Foundation Trust",
+                "totalPopulation": 44661,
+                "children": []
+              },
+              {
+                "id": 102,
+                "label": "Peterborough & Stamford Hosps NHS Foundation Trust",
+                "totalPopulation": 236922,
+                "children": []
+              },
+              {
+                "id": 103,
+                "label": "Plymouth Hospitals NHS Trust",
+                "totalPopulation": 405414,
+                "children": []
+              },
+              {
+                "id": 104,
+                "label": "Poole Hospital NHS Foundation Trust",
+                "totalPopulation": 218818,
+                "children": []
+              },
+              {
+                "id": 105,
+                "label": "Portsmouth Hospitals NHS Trust",
+                "totalPopulation": 529293,
+                "children": []
+              },
+              {
+                "id": 106,
+                "label": "Queen Elizabeth Hospital NHS Trust",
+                "totalPopulation": 129907,
+                "children": []
+              },
+              {
+                "id": 107,
+                "label": "Queen Marys Sidcup NHS Trust",
+                "totalPopulation": 279033,
+                "children": []
+              },
+              {
+                "id": 108,
+                "label": "Queen Victoria Hospital NHS Foundation Trust",
+                "totalPopulation": 6343,
+                "children": []
+              },
+              {
+                "id": 109,
+                "label": "Robert Jones\/Agnes Hunt Orthopaedic Hospital NHST",
+                "totalPopulation": 8151,
+                "children": []
+              },
+              {
+                "id": 110,
+                "label": "Royal Berkshire NHS Foundation Trust",
+                "totalPopulation": 378851,
+                "children": []
+              },
+              {
+                "id": 111,
+                "label": "Royal Bolton Hospital NHS Foundation Trust",
+                "totalPopulation": 157425,
+                "children": []
+              },
+              {
+                "id": 112,
+                "label": "Royal Brompton & Harefield NHS Foundation Trust",
+                "totalPopulation": 6343,
+                "children": []
+              },
+              {
+                "id": 113,
+                "label": "Royal Cornwall Hospitals NHS Trust",
+                "totalPopulation": 366716,
+                "children": []
+              },
+              {
+                "id": 114,
+                "label": "Royal Devon & Exeter NHS Foundation Trust",
+                "totalPopulation": 364512,
+                "children": []
+              },
+              {
+                "id": 115,
+                "label": "Royal Free Hampstead NHS Trust",
+                "totalPopulation": 380368,
+                "children": []
+              },
+              {
+                "id": 116,
+                "label": "Royal Liverpool and Broadgreen Univ Hospitals NHST",
+                "totalPopulation": 409437,
+                "children": []
+              },
+              {
+                "id": 117,
+                "label": "Royal National Hospital for Rheumatic Diseases NHS Foundation Trust",
+                "totalPopulation": 0,
+                "children": []
+              },
+              {
+                "id": 118,
+                "label": "Royal National Orthopaedic Hospital NHS Trust",
+                "totalPopulation": 18594,
+                "children": []
+              },
+              {
+                "id": 119,
+                "label": "Royal Surrey County Hospital NHS Foundation Trust",
+                "totalPopulation": 95151,
+                "children": []
+              },
+              {
+                "id": 120,
+                "label": "Royal United Hospital Bath NHS Trust",
+                "totalPopulation": 316133,
+                "children": []
+              },
+              {
+                "id": 121,
+                "label": "Royal West Sussex NHS Trust",
+                "totalPopulation": 203927,
+                "children": []
+              },
+              {
+                "id": 122,
+                "label": "Salford Royal NHS Foundation Trust",
+                "totalPopulation": 289052,
+                "children": []
+              },
+              {
+                "id": 123,
+                "label": "Salisbury NHS Foundation Trust",
+                "totalPopulation": 237783,
+                "children": []
+              },
+              {
+                "id": 124,
+                "label": "Sandwell & West Birmingham Hospitals NHS Trust",
+                "totalPopulation": 407699,
+                "children": []
+              },
+              {
+                "id": 125,
+                "label": "Scarborough and NE Yorks Healthcare NHS Trust",
+                "totalPopulation": 171357,
+                "children": []
+              },
+              {
+                "id": 126,
+                "label": "Sheffield Children's NHS Foundation Trust",
+                "totalPopulation": 0,
+                "children": []
+              },
+              {
+                "id": 127,
+                "label": "Sheffield Teaching Hospitals NHS Foundation Trust",
+                "totalPopulation": 601098,
+                "children": []
+              },
+              {
+                "id": 128,
+                "label": "Sherwood Forest Hospitals NHS Foundation Trust",
+                "totalPopulation": 229960,
+                "children": []
+              },
+              {
+                "id": 129,
+                "label": "Shrewsbury and Telford Hospital NHS Trust",
+                "totalPopulation": 431575,
+                "children": []
+              },
+              {
+                "id": 130,
+                "label": "South Devon Healthcare NHS Foundation Trust",
+                "totalPopulation": 256572,
+                "children": []
+              },
+              {
+                "id": 131,
+                "label": "South Staffordshire and Shropshire HC NHSFT",
+                "totalPopulation": 0,
+                "children": []
+              },
+              {
+                "id": 132,
+                "label": "South Tees Hospitals NHS Foundation Trust",
+                "totalPopulation": 414912,
+                "children": []
+              },
+              {
+                "id": 133,
+                "label": "South Tyneside NHS Foundation Trust",
+                "totalPopulation": 119564,
+                "children": []
+              },
+              {
+                "id": 134,
+                "label": "South Warwickshire NHS Foundation Trust",
+                "totalPopulation": 183511,
+                "children": []
+              },
+              {
+                "id": 135,
+                "label": "South West Yorkshire Mental Health NHS Trust",
+                "totalPopulation": 0,
+                "children": []
+              },
+              {
+                "id": 136,
+                "label": "Southampton University Hospitals NHS Trust",
+                "totalPopulation": 680807,
+                "children": []
+              },
+              {
+                "id": 137,
+                "label": "Southend University Hospital NHS Foundation Trust",
+                "totalPopulation": 336882,
+                "children": []
+              },
+              {
+                "id": 138,
+                "label": "Southport & Ormskirk Hospital NHS Trust",
+                "totalPopulation": 283323,
+                "children": []
+              },
+              {
+                "id": 139,
+                "label": "St George's Healthcare NHS Trust",
+                "totalPopulation": 389150,
+                "children": []
+              },
+              {
+                "id": 140,
+                "label": "St Helens & Knowsley Teaching Hospitals NHS Trust",
+                "totalPopulation": 199625,
+                "children": []
+              },
+              {
+                "id": 141,
+                "label": "Stockport NHS Foundation Trust",
+                "totalPopulation": 344002,
+                "children": []
+              },
+              {
+                "id": 142,
+                "label": "Surrey & Sussex Healthcare NHS Trust",
+                "totalPopulation": 93430,
+                "children": []
+              },
+              {
+                "id": 143,
+                "label": "Tameside Hospital NHS Foundation Trust",
+                "totalPopulation": 143653,
+                "children": []
+              },
+              {
+                "id": 144,
+                "label": "Taunton & Somerset NHS Foundation Trust",
+                "totalPopulation": 344728,
+                "children": []
+              },
+              {
+                "id": 145,
+                "label": "The Christie NHS Foundation Trust",
+                "totalPopulation": 237039,
+                "children": []
+              },
+              {
+                "id": 146,
+                "label": "The Dudley Group of Hospitals NHS Foundation Trust",
+                "totalPopulation": 328867,
+                "children": []
+              },
+              {
+                "id": 147,
+                "label": "The Leeds Teaching Hospitals NHS Trust",
+                "totalPopulation": 1046363,
+                "children": []
+              },
+              {
+                "id": 148,
+                "label": "The Lewisham Hospital NHS Trust",
+                "totalPopulation": 187345,
+                "children": []
+              },
+              {
+                "id": 149,
+                "label": "The Mid Yorkshire Hospitals NHS Trust",
+                "totalPopulation": 493528,
+                "children": []
+              },
+              {
+                "id": 150,
+                "label": "The Newcastle upon Tyne Hospitals NHSFT",
+                "totalPopulation": 486815,
+                "children": []
+              },
+              {
+                "id": 151,
+                "label": "The North West London Hospitals NHS Trust",
+                "totalPopulation": 473403,
+                "children": []
+              },
+              {
+                "id": 152,
+                "label": "The Pennine Acute Hospitals NHS Trust",
+                "totalPopulation": 746452,
+                "children": []
+              },
+              {
+                "id": 153,
+                "label": "The Princess Alexandra Hospital NHS Trust",
+                "totalPopulation": 200446,
+                "children": []
+              },
+              {
+                "id": 154,
+                "label": "The Queen Elizabeth Hospital King's Lynn NHS Trust",
+                "totalPopulation": 235531,
+                "children": []
+              },
+              {
+                "id": 155,
+                "label": "The Rotherham NHS Foundation Trust",
+                "totalPopulation": 185486,
+                "children": []
+              },
+              {
+                "id": 156,
+                "label": "The Royal Bournemouth and Christchurch Hosps NHSFT",
+                "totalPopulation": 325306,
+                "children": []
+              },
+              {
+                "id": 157,
+                "label": "The Royal Marsden NHS Foundation Trust",
+                "totalPopulation": 1158326,
+                "children": []
+              },
+              {
+                "id": 158,
+                "label": "The Royal Orthopaedic Hosp NHS Foundation Trust",
+                "totalPopulation": 0,
+                "children": []
+              },
+              {
+                "id": 159,
+                "label": "The Royal Wolverhampton Hospitals NHS Trust",
+                "totalPopulation": 357311,
+                "children": []
+              },
+              {
+                "id": 160,
+                "label": "Trafford Healthcare NHS Trust",
+                "totalPopulation": 222019,
+                "children": []
+              },
+              {
+                "id": 161,
+                "label": "United Lincolnshire Hospitals NHS Trust",
+                "totalPopulation": 567435,
+                "children": []
+              },
+              {
+                "id": 162,
+                "label": "University College London Hospitals NHSFT",
+                "totalPopulation": 818743,
+                "children": []
+              },
+              {
+                "id": 163,
+                "label": "University Hosp Birmingham NHS Foundation Trust",
+                "totalPopulation": 487068,
+                "children": []
+              },
+              {
+                "id": 164,
+                "label": "University Hospital of North Staffs NHS Trust",
+                "totalPopulation": 502662,
+                "children": []
+              },
+              {
+                "id": 165,
+                "label": "University Hospital of South Manchester NHSFT",
+                "totalPopulation": 43359,
+                "children": []
+              },
+              {
+                "id": 166,
+                "label": "University Hospitals Bristol NHSFT",
+                "totalPopulation": 444395,
+                "children": []
+              },
+              {
+                "id": 167,
+                "label": "University Hospitals Coventry & Warwickshire NHST",
+                "totalPopulation": 436748,
+                "children": []
+              },
+              {
+                "id": 168,
+                "label": "University Hospitals of Leicester NHS Trust",
+                "totalPopulation": 974374,
+                "children": []
+              },
+              {
+                "id": 169,
+                "label": "University Hospitals of Morecambe Bay NHS Trust",
+                "totalPopulation": 41286,
+                "children": []
+              },
+              {
+                "id": 170,
+                "label": "Walsall Hospitals NHS Trust",
+                "totalPopulation": 172837,
+                "children": []
+              },
+              {
+                "id": 171,
+                "label": "Walton Centre for Neurology & Neurosurgery NHS Trust",
+                "totalPopulation": 0,
+                "children": []
+              },
+              {
+                "id": 172,
+                "label": "Warrington & Halton Hospitals NHS Foundation Trust",
+                "totalPopulation": 358249,
+                "children": []
+              },
+              {
+                "id": 173,
+                "label": "West Hertfordshire Hospitals NHS Trust",
+                "totalPopulation": 394357,
+                "children": []
+              },
+              {
+                "id": 174,
+                "label": "West Middlesex University Hospital NHS Trust",
+                "totalPopulation": 265970,
+                "children": []
+              },
+              {
+                "id": 175,
+                "label": "West Suffolk Hospital NHS Trust",
+                "totalPopulation": 223781,
+                "children": []
+              },
+              {
+                "id": 176,
+                "label": "Weston Area Health NHS Trust",
+                "totalPopulation": 138872,
+                "children": []
+              },
+              {
+                "id": 177,
+                "label": "Whipps Cross University Hospital NHS Trust",
+                "totalPopulation": 263721,
+                "children": []
+              },
+              {
+                "id": 178,
+                "label": "Whittington Hospital NHS Trust",
+                "totalPopulation": 87390,
+                "children": []
+              },
+              {
+                "id": 179,
+                "label": "Winchester & Eastleigh Healthcare NHS Trust",
+                "totalPopulation": 208047,
+                "children": []
+              },
+              {
+                "id": 180,
+                "label": "Wirral University Teaching Hospital NHSFT",
+                "totalPopulation": 373893,
+                "children": []
+              },
+              {
+                "id": 181,
+                "label": "Worcestershire Acute Hospitals NHS Trust",
+                "totalPopulation": 487631,
+                "children": []
+              },
+              {
+                "id": 182,
+                "label": "Worthing and Southlands Hospitals NHS Trust",
+                "totalPopulation": 313005,
+                "children": []
+              },
+              {
+                "id": 183,
+                "label": "Wrightington, Wigan & Leigh NHS Foundation Trust",
+                "totalPopulation": 297266,
+                "children": []
+              },
+              {
+                "id": 184,
+                "label": "Yeovil District Hospital NHS Foundation Trust",
+                "totalPopulation": 88150,
+                "children": []
+              },
+              {
+                "id": 185,
+                "label": "York Hospitals NHS Foundation Trust",
+                "totalPopulation": 246583,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "label": "Clinical commissioning groups",
+            "totalPopulation": null,
+            "children": [
+              {
+                "id": 186,
+                "label": "NHS Airedale, Wharfedale and Craven CCG",
+                "totalPopulation": 158187,
+                "children": []
+              },
+              {
+                "id": 187,
+                "label": "NHS Ashford CCG",
+                "totalPopulation": 120116,
+                "children": []
+              },
+              {
+                "id": 188,
+                "label": "NHS Aylesbury Vale CCG",
+                "totalPopulation": 196373,
+                "children": []
+              },
+              {
+                "id": 189,
+                "label": "NHS Barking & Dagenham CCG",
+                "totalPopulation": 190560,
+                "children": []
+              },
+              {
+                "id": 190,
+                "label": "NHS Barnet CCG",
+                "totalPopulation": 363956,
+                "children": []
+              },
+              {
+                "id": 191,
+                "label": "NHS Barnsley CCG",
+                "totalPopulation": 233671,
+                "children": []
+              },
+              {
+                "id": 192,
+                "label": "NHS Basildon and Brentwood CCG",
+                "totalPopulation": 250494,
+                "children": []
+              },
+              {
+                "id": 193,
+                "label": "NHS Bassetlaw CCG",
+                "totalPopulation": 113178,
+                "children": []
+              },
+              {
+                "id": 194,
+                "label": "NHS Bath and North East Somerset CCG",
+                "totalPopulation": 177643,
+                "children": []
+              },
+              {
+                "id": 195,
+                "label": "NHS Bedfordshire CCG",
+                "totalPopulation": 419176,
+                "children": []
+              },
+              {
+                "id": 196,
+                "label": "NHS Bexley CCG",
+                "totalPopulation": 234271,
+                "children": []
+              },
+              {
+                "id": 197,
+                "label": "NHS Birmingham CrossCity CCG",
+                "totalPopulation": 721422,
+                "children": []
+              },
+              {
+                "id": 198,
+                "label": "NHS Birmingham South and Central CCG",
+                "totalPopulation": 199614,
+                "children": []
+              },
+              {
+                "id": 199,
+                "label": "NHS Blackburn with Darwen CCG",
+                "totalPopulation": 147713,
+                "children": []
+              },
+              {
+                "id": 200,
+                "label": "NHS Blackpool CCG",
+                "totalPopulation": 141976,
+                "children": []
+              },
+              {
+                "id": 201,
+                "label": "NHS Bolton CCG",
+                "totalPopulation": 278984,
+                "children": []
+              },
+              {
+                "id": 202,
+                "label": "NHS Bracknell and Ascot CCG",
+                "totalPopulation": 132940,
+                "children": []
+              },
+              {
+                "id": 203,
+                "label": "NHS Bradford City CCG",
+                "totalPopulation": 82319,
+                "children": []
+              },
+              {
+                "id": 204,
+                "label": "NHS Bradford Districts CCG",
+                "totalPopulation": 333506,
+                "children": []
+              },
+              {
+                "id": 205,
+                "label": "NHS Brent CCG",
+                "totalPopulation": 314660,
+                "children": []
+              },
+              {
+                "id": 206,
+                "label": "NHS Brighton & Hove CCG",
+                "totalPopulation": 275762,
+                "children": []
+              },
+              {
+                "id": 207,
+                "label": "NHS Bristol CCG",
+                "totalPopulation": 432451,
+                "children": []
+              },
+              {
+                "id": 208,
+                "label": "NHS Bromley CCG",
+                "totalPopulation": 314036,
+                "children": []
+              },
+              {
+                "id": 209,
+                "label": "NHS Bury CCG",
+                "totalPopulation": 186199,
+                "children": []
+              },
+              {
+                "id": 210,
+                "label": "NHS Calderdale CCG",
+                "totalPopulation": 205293,
+                "children": []
+              },
+              {
+                "id": 211,
+                "label": "NHS Cambridgeshire and Peterborough CCG",
+                "totalPopulation": 848957,
+                "children": []
+              },
+              {
+                "id": 212,
+                "label": "NHS Camden CCG",
+                "totalPopulation": 224962,
+                "children": []
+              },
+              {
+                "id": 213,
+                "label": "NHS Cannock Chase CCG",
+                "totalPopulation": 132803,
+                "children": []
+              },
+              {
+                "id": 214,
+                "label": "NHS Canterbury and Coastal CCG",
+                "totalPopulation": 200329,
+                "children": []
+              },
+              {
+                "id": 215,
+                "label": "NHS Castle Point, Rayleigh and Rochford CCG",
+                "totalPopulation": 172087,
+                "children": []
+              },
+              {
+                "id": 216,
+                "label": "NHS Central London (Westminster) CCG",
+                "totalPopulation": 161031,
+                "children": []
+              },
+              {
+                "id": 217,
+                "label": "NHS Central Manchester CCG",
+                "totalPopulation": 182365,
+                "children": []
+              },
+              {
+                "id": 218,
+                "label": "NHS Chiltern CCG",
+                "totalPopulation": 317947,
+                "children": []
+              },
+              {
+                "id": 219,
+                "label": "NHS Chorley and South Ribble CCG",
+                "totalPopulation": 167880,
+                "children": []
+              },
+              {
+                "id": 220,
+                "label": "NHS City and Hackney CCG",
+                "totalPopulation": 259723,
+                "children": []
+              },
+              {
+                "id": 221,
+                "label": "NHS Coastal West Sussex CCG",
+                "totalPopulation": 476677,
+                "children": []
+              },
+              {
+                "id": 222,
+                "label": "NHS Corby CCG",
+                "totalPopulation": 63073,
+                "children": []
+              },
+              {
+                "id": 223,
+                "label": "NHS Coventry and Rugby CCG",
+                "totalPopulation": 423883,
+                "children": []
+              },
+              {
+                "id": 224,
+                "label": "NHS Crawley CCG",
+                "totalPopulation": 108302,
+                "children": []
+              },
+              {
+                "id": 225,
+                "label": "NHS Croydon CCG",
+                "totalPopulation": 368886,
+                "children": []
+              },
+              {
+                "id": 226,
+                "label": "NHS Cumbria CCG",
+                "totalPopulation": 505168,
+                "children": []
+              },
+              {
+                "id": 227,
+                "label": "NHS Darlington CCG",
+                "totalPopulation": 105248,
+                "children": []
+              },
+              {
+                "id": 228,
+                "label": "NHS Dartford, Gravesham and Swanley CCG",
+                "totalPopulation": 249205,
+                "children": []
+              },
+              {
+                "id": 229,
+                "label": "NHS Doncaster CCG",
+                "totalPopulation": 302739,
+                "children": []
+              },
+              {
+                "id": 230,
+                "label": "NHS Dorset CCG",
+                "totalPopulation": 750299,
+                "children": []
+              },
+              {
+                "id": 231,
+                "label": "NHS Dudley CCG",
+                "totalPopulation": 313589,
+                "children": []
+              },
+              {
+                "id": 232,
+                "label": "NHS Durham Dales, Easington and Sedgefield CCG",
+                "totalPopulation": 273043,
+                "children": []
+              },
+              {
+                "id": 233,
+                "label": "NHS Ealing CCG",
+                "totalPopulation": 340671,
+                "children": []
+              },
+              {
+                "id": 234,
+                "label": "NHS East and North Hertfordshire CCG",
+                "totalPopulation": 540729,
+                "children": []
+              },
+              {
+                "id": 235,
+                "label": "NHS East Lancashire CCG",
+                "totalPopulation": 371609,
+                "children": []
+              },
+              {
+                "id": 236,
+                "label": "NHS East Leicestershire and Rutland CCG",
+                "totalPopulation": 319536,
+                "children": []
+              },
+              {
+                "id": 237,
+                "label": "NHS East Riding of Yorkshire CCG",
+                "totalPopulation": 314504,
+                "children": []
+              },
+              {
+                "id": 238,
+                "label": "NHS East Staffordshire CCG",
+                "totalPopulation": 123945,
+                "children": []
+              },
+              {
+                "id": 239,
+                "label": "NHS East Surrey CCG",
+                "totalPopulation": 175875,
+                "children": []
+              },
+              {
+                "id": 240,
+                "label": "NHS Eastbourne, Hailsham and Seaford CCG",
+                "totalPopulation": 181986,
+                "children": []
+              },
+              {
+                "id": 241,
+                "label": "NHS Eastern Cheshire CCG",
+                "totalPopulation": 195346,
+                "children": []
+              },
+              {
+                "id": 242,
+                "label": "NHS Enfield CCG",
+                "totalPopulation": 317287,
+                "children": []
+              },
+              {
+                "id": 243,
+                "label": "NHS Erewash CCG",
+                "totalPopulation": 94644,
+                "children": []
+              },
+              {
+                "id": 244,
+                "label": "NHS Fareham and Gosport CCG",
+                "totalPopulation": 196078,
+                "children": []
+              },
+              {
+                "id": 245,
+                "label": "NHS Fylde & Wyre CCG",
+                "totalPopulation": 165046,
+                "children": []
+              },
+              {
+                "id": 246,
+                "label": "NHS Gateshead CCG",
+                "totalPopulation": 200153,
+                "children": []
+              },
+              {
+                "id": 247,
+                "label": "NHS Gloucestershire CCG",
+                "totalPopulation": 602159,
+                "children": []
+              },
+              {
+                "id": 248,
+                "label": "NHS Great Yarmouth & Waveney CCG",
+                "totalPopulation": 213240,
+                "children": []
+              },
+              {
+                "id": 249,
+                "label": "NHS Greater Huddersfield CCG",
+                "totalPopulation": 238811,
+                "children": []
+              },
+              {
+                "id": 250,
+                "label": "NHS Greater Preston CCG",
+                "totalPopulation": 201991,
+                "children": []
+              },
+              {
+                "id": 251,
+                "label": "NHS Greenwich CCG",
+                "totalPopulation": 260068,
+                "children": []
+              },
+              {
+                "id": 252,
+                "label": "NHS Guildford and Waverley CCG",
+                "totalPopulation": 205935,
+                "children": []
+              },
+              {
+                "id": 253,
+                "label": "NHS Halton CCG",
+                "totalPopulation": 125692,
+                "children": []
+              },
+              {
+                "id": 254,
+                "label": "NHS Hambleton, Richmondshire and Whitby CCG",
+                "totalPopulation": 153420,
+                "children": []
+              },
+              {
+                "id": 255,
+                "label": "NHS Hammersmith and Fulham CCG",
+                "totalPopulation": 179850,
+                "children": []
+              },
+              {
+                "id": 256,
+                "label": "NHS Hardwick CCG",
+                "totalPopulation": 108933,
+                "children": []
+              },
+              {
+                "id": 257,
+                "label": "NHS Haringey CCG",
+                "totalPopulation": 258912,
+                "children": []
+              },
+              {
+                "id": 258,
+                "label": "NHS Harrogate and Rural District CCG",
+                "totalPopulation": 158610,
+                "children": []
+              },
+              {
+                "id": 259,
+                "label": "NHS Harrow CCG",
+                "totalPopulation": 242377,
+                "children": []
+              },
+              {
+                "id": 260,
+                "label": "NHS Hartlepool and Stockton-on-Tees CCG",
+                "totalPopulation": 284644,
+                "children": []
+              },
+              {
+                "id": 261,
+                "label": "NHS Hastings & Rother CCG",
+                "totalPopulation": 181433,
+                "children": []
+              },
+              {
+                "id": 262,
+                "label": "NHS Havering CCG",
+                "totalPopulation": 239733,
+                "children": []
+              },
+              {
+                "id": 263,
+                "label": "NHS Herefordshire CCG",
+                "totalPopulation": 184932,
+                "children": []
+              },
+              {
+                "id": 264,
+                "label": "NHS Herts Valleys CCG",
+                "totalPopulation": 569869,
+                "children": []
+              },
+              {
+                "id": 265,
+                "label": "NHS Heywood, Middleton & Rochdale CCG",
+                "totalPopulation": 212020,
+                "children": []
+              },
+              {
+                "id": 266,
+                "label": "NHS High Weald Lewes Havens CCG",
+                "totalPopulation": 167782,
+                "children": []
+              },
+              {
+                "id": 267,
+                "label": "NHS Hillingdon CCG",
+                "totalPopulation": 281756,
+                "children": []
+              },
+              {
+                "id": 268,
+                "label": "NHS Horsham and Mid Sussex CCG",
+                "totalPopulation": 223327,
+                "children": []
+              },
+              {
+                "id": 269,
+                "label": "NHS Hounslow CCG",
+                "totalPopulation": 259052,
+                "children": []
+              },
+              {
+                "id": 270,
+                "label": "NHS Hull CCG",
+                "totalPopulation": 257204,
+                "children": []
+              },
+              {
+                "id": 271,
+                "label": "NHS Ipswich and East Suffolk CCG",
+                "totalPopulation": 395677,
+                "children": []
+              },
+              {
+                "id": 272,
+                "label": "NHS Isle of Wight CCG",
+                "totalPopulation": 138748,
+                "children": []
+              },
+              {
+                "id": 273,
+                "label": "NHS Islington CCG",
+                "totalPopulation": 211047,
+                "children": []
+              },
+              {
+                "id": 274,
+                "label": "NHS Kernow CCG",
+                "totalPopulation": 540178,
+                "children": []
+              },
+              {
+                "id": 275,
+                "label": "NHS Kingston CCG",
+                "totalPopulation": 163906,
+                "children": []
+              },
+              {
+                "id": 276,
+                "label": "NHS Knowsley CCG",
+                "totalPopulation": 145936,
+                "children": []
+              },
+              {
+                "id": 277,
+                "label": "NHS Lambeth CCG",
+                "totalPopulation": 310200,
+                "children": []
+              },
+              {
+                "id": 278,
+                "label": "NHS Lancashire North CCG",
+                "totalPopulation": 158528,
+                "children": []
+              },
+              {
+                "id": 279,
+                "label": "NHS Leeds North CCG",
+                "totalPopulation": 199563,
+                "children": []
+              },
+              {
+                "id": 280,
+                "label": "NHS Leeds South and East CCG",
+                "totalPopulation": 238316,
+                "children": []
+              },
+              {
+                "id": 281,
+                "label": "NHS Leeds West CCG",
+                "totalPopulation": 319776,
+                "children": []
+              },
+              {
+                "id": 282,
+                "label": "NHS Leicester City CCG",
+                "totalPopulation": 331606,
+                "children": []
+              },
+              {
+                "id": 283,
+                "label": "NHS Lewisham CCG",
+                "totalPopulation": 281556,
+                "children": []
+              },
+              {
+                "id": 284,
+                "label": "NHS Lincolnshire East CCG",
+                "totalPopulation": 228111,
+                "children": []
+              },
+              {
+                "id": 285,
+                "label": "NHS Lincolnshire West CCG",
+                "totalPopulation": 227679,
+                "children": []
+              },
+              {
+                "id": 286,
+                "label": "NHS Liverpool CCG",
+                "totalPopulation": 469690,
+                "children": []
+              },
+              {
+                "id": 287,
+                "label": "NHS Luton CCG",
+                "totalPopulation": 205843,
+                "children": []
+              },
+              {
+                "id": 288,
+                "label": "NHS Mansfield & Ashfield CCG",
+                "totalPopulation": 192539,
+                "children": []
+              },
+              {
+                "id": 289,
+                "label": "NHS Medway CCG",
+                "totalPopulation": 268218,
+                "children": []
+              },
+              {
+                "id": 290,
+                "label": "NHS Merton CCG",
+                "totalPopulation": 202225,
+                "children": []
+              },
+              {
+                "id": 291,
+                "label": "NHS Mid Essex CCG",
+                "totalPopulation": 379637,
+                "children": []
+              },
+              {
+                "id": 292,
+                "label": "NHS Milton Keynes CCG",
+                "totalPopulation": 257931,
+                "children": []
+              },
+              {
+                "id": 293,
+                "label": "NHS Nene CCG",
+                "totalPopulation": 621755,
+                "children": []
+              },
+              {
+                "id": 294,
+                "label": "NHS Newark & Sherwood CCG",
+                "totalPopulation": 115897,
+                "children": []
+              },
+              {
+                "id": 295,
+                "label": "NHS Newbury and District CCG",
+                "totalPopulation": 105128,
+                "children": []
+              },
+              {
+                "id": 296,
+                "label": "NHS Newcastle North and East CCG",
+                "totalPopulation": 141550,
+                "children": []
+              },
+              {
+                "id": 297,
+                "label": "NHS Newcastle West CCG",
+                "totalPopulation": 140892,
+                "children": []
+              },
+              {
+                "id": 298,
+                "label": "NHS Newham CCG",
+                "totalPopulation": 314084,
+                "children": []
+              },
+              {
+                "id": 299,
+                "label": "NHS North & West Reading CCG",
+                "totalPopulation": 99305,
+                "children": []
+              },
+              {
+                "id": 300,
+                "label": "NHS North Derbyshire CCG",
+                "totalPopulation": 272075,
+                "children": []
+              },
+              {
+                "id": 301,
+                "label": "NHS North Durham CCG",
+                "totalPopulation": 241305,
+                "children": []
+              },
+              {
+                "id": 302,
+                "label": "NHS North East Essex CCG",
+                "totalPopulation": 314293,
+                "children": []
+              },
+              {
+                "id": 303,
+                "label": "NHS North East Hampshire and Farnham CCG",
+                "totalPopulation": 206753,
+                "children": []
+              },
+              {
+                "id": 304,
+                "label": "NHS North East Lincolnshire CCG",
+                "totalPopulation": 159727,
+                "children": []
+              },
+              {
+                "id": 305,
+                "label": "NHS North Hampshire CCG",
+                "totalPopulation": 216242,
+                "children": []
+              },
+              {
+                "id": 306,
+                "label": "NHS North Kirklees CCG",
+                "totalPopulation": 186706,
+                "children": []
+              },
+              {
+                "id": 307,
+                "label": "NHS North Lincolnshire CCG",
+                "totalPopulation": 168372,
+                "children": []
+              },
+              {
+                "id": 308,
+                "label": "NHS North Manchester CCG",
+                "totalPopulation": 167147,
+                "children": []
+              },
+              {
+                "id": 309,
+                "label": "NHS North Norfolk CCG",
+                "totalPopulation": 167904,
+                "children": []
+              },
+              {
+                "id": 310,
+                "label": "NHS North Somerset CCG",
+                "totalPopulation": 204385,
+                "children": []
+              },
+              {
+                "id": 311,
+                "label": "NHS North Staffordshire CCG",
+                "totalPopulation": 213209,
+                "children": []
+              },
+              {
+                "id": 312,
+                "label": "NHS North Tyneside CCG",
+                "totalPopulation": 201446,
+                "children": []
+              },
+              {
+                "id": 313,
+                "label": "NHS North West Surrey CCG",
+                "totalPopulation": 338176,
+                "children": []
+              },
+              {
+                "id": 314,
+                "label": "NHS North, East, West Devon CCG",
+                "totalPopulation": 869408,
+                "children": []
+              },
+              {
+                "id": 315,
+                "label": "NHS Northumberland CCG",
+                "totalPopulation": 316116,
+                "children": []
+              },
+              {
+                "id": 316,
+                "label": "NHS Norwich CCG",
+                "totalPopulation": 193365,
+                "children": []
+              },
+              {
+                "id": 317,
+                "label": "NHS Nottingham City CCG",
+                "totalPopulation": 308735,
+                "children": []
+              },
+              {
+                "id": 318,
+                "label": "NHS Nottingham North & East CCG",
+                "totalPopulation": 146245,
+                "children": []
+              },
+              {
+                "id": 319,
+                "label": "NHS Nottingham West CCG",
+                "totalPopulation": 110716,
+                "children": []
+              },
+              {
+                "id": 320,
+                "label": "NHS Oldham CCG",
+                "totalPopulation": 225875,
+                "children": []
+              },
+              {
+                "id": 321,
+                "label": "NHS Oxfordshire CCG",
+                "totalPopulation": 647085,
+                "children": []
+              },
+              {
+                "id": 322,
+                "label": "NHS Portsmouth CCG",
+                "totalPopulation": 206836,
+                "children": []
+              },
+              {
+                "id": 323,
+                "label": "NHS Redbridge CCG",
+                "totalPopulation": 284617,
+                "children": []
+              },
+              {
+                "id": 324,
+                "label": "NHS Redditch and Bromsgrove CCG",
+                "totalPopulation": 178704,
+                "children": []
+              },
+              {
+                "id": 325,
+                "label": "NHS Richmond CCG",
+                "totalPopulation": 189145,
+                "children": []
+              },
+              {
+                "id": 326,
+                "label": "NHS Rotherham CCG",
+                "totalPopulation": 258352,
+                "children": []
+              },
+              {
+                "id": 327,
+                "label": "NHS Rushcliffe CCG",
+                "totalPopulation": 111598,
+                "children": []
+              },
+              {
+                "id": 328,
+                "label": "NHS Salford CCG",
+                "totalPopulation": 237085,
+                "children": []
+              },
+              {
+                "id": 329,
+                "label": "NHS Sandwell and West Birmingham CCG",
+                "totalPopulation": 475685,
+                "children": []
+              },
+              {
+                "id": 330,
+                "label": "NHS Scarborough and Ryedale CCG",
+                "totalPopulation": 110488,
+                "children": []
+              },
+              {
+                "id": 331,
+                "label": "NHS Sheffield CCG",
+                "totalPopulation": 557382,
+                "children": []
+              },
+              {
+                "id": 332,
+                "label": "NHS Shropshire CCG",
+                "totalPopulation": 308207,
+                "children": []
+              },
+              {
+                "id": 333,
+                "label": "NHS Slough CCG",
+                "totalPopulation": 141838,
+                "children": []
+              },
+              {
+                "id": 334,
+                "label": "NHS Solihull CCG",
+                "totalPopulation": 207380,
+                "children": []
+              },
+              {
+                "id": 335,
+                "label": "NHS Somerset CCG",
+                "totalPopulation": 534950,
+                "children": []
+              },
+              {
+                "id": 336,
+                "label": "NHS South Cheshire CCG",
+                "totalPopulation": 176800,
+                "children": []
+              },
+              {
+                "id": 337,
+                "label": "NHS South Devon and Torbay CCG",
+                "totalPopulation": 273267,
+                "children": []
+              },
+              {
+                "id": 338,
+                "label": "NHS South East Staffs and Seisdon and Peninsular CCG",
+                "totalPopulation": 222811,
+                "children": []
+              },
+              {
+                "id": 339,
+                "label": "NHS South Eastern Hampshire CCG",
+                "totalPopulation": 209147,
+                "children": []
+              },
+              {
+                "id": 340,
+                "label": "NHS South Gloucestershire CCG",
+                "totalPopulation": 266147,
+                "children": []
+              },
+              {
+                "id": 341,
+                "label": "NHS South Kent Coast CCG",
+                "totalPopulation": 202986,
+                "children": []
+              },
+              {
+                "id": 342,
+                "label": "NHS South Lincolnshire CCG",
+                "totalPopulation": 141045,
+                "children": []
+              },
+              {
+                "id": 343,
+                "label": "NHS South Manchester CCG",
+                "totalPopulation": 161260,
+                "children": []
+              },
+              {
+                "id": 344,
+                "label": "NHS South Norfolk CCG",
+                "totalPopulation": 235196,
+                "children": []
+              },
+              {
+                "id": 345,
+                "label": "NHS South Reading CCG",
+                "totalPopulation": 107165,
+                "children": []
+              },
+              {
+                "id": 346,
+                "label": "NHS South Sefton CCG",
+                "totalPopulation": 159417,
+                "children": []
+              },
+              {
+                "id": 347,
+                "label": "NHS South Tees CCG",
+                "totalPopulation": 273742,
+                "children": []
+              },
+              {
+                "id": 348,
+                "label": "NHS South Tyneside CCG",
+                "totalPopulation": 148428,
+                "children": []
+              },
+              {
+                "id": 349,
+                "label": "NHS South Warwickshire CCG",
+                "totalPopulation": 259218,
+                "children": []
+              },
+              {
+                "id": 350,
+                "label": "NHS South West Lincolnshire CCG",
+                "totalPopulation": 122003,
+                "children": []
+              },
+              {
+                "id": 351,
+                "label": "NHS South Worcestershire CCG",
+                "totalPopulation": 292254,
+                "children": []
+              },
+              {
+                "id": 352,
+                "label": "NHS Southampton CCG",
+                "totalPopulation": 239428,
+                "children": []
+              },
+              {
+                "id": 353,
+                "label": "NHS Southend CCG",
+                "totalPopulation": 174838,
+                "children": []
+              },
+              {
+                "id": 354,
+                "label": "NHS Southern Derbyshire CCG",
+                "totalPopulation": 515283,
+                "children": []
+              },
+              {
+                "id": 355,
+                "label": "NHS Southport and Formby CCG",
+                "totalPopulation": 114280,
+                "children": []
+              },
+              {
+                "id": 356,
+                "label": "NHS Southwark CCG",
+                "totalPopulation": 293530,
+                "children": []
+              },
+              {
+                "id": 357,
+                "label": "NHS St Helens CCG",
+                "totalPopulation": 176114,
+                "children": []
+              },
+              {
+                "id": 358,
+                "label": "NHS Stafford and Surrounds CCG",
+                "totalPopulation": 151144,
+                "children": []
+              },
+              {
+                "id": 359,
+                "label": "NHS Stockport CCG",
+                "totalPopulation": 283897,
+                "children": []
+              },
+              {
+                "id": 360,
+                "label": "NHS Stoke on Trent CCG",
+                "totalPopulation": 258114,
+                "children": []
+              },
+              {
+                "id": 361,
+                "label": "NHS Sunderland CCG",
+                "totalPopulation": 275743,
+                "children": []
+              },
+              {
+                "id": 362,
+                "label": "NHS Surrey Downs CCG",
+                "totalPopulation": 282698,
+                "children": []
+              },
+              {
+                "id": 363,
+                "label": "NHS Surrey Heath CCG",
+                "totalPopulation": 94099,
+                "children": []
+              },
+              {
+                "id": 364,
+                "label": "NHS Sutton CCG",
+                "totalPopulation": 193630,
+                "children": []
+              },
+              {
+                "id": 365,
+                "label": "NHS Swale CCG",
+                "totalPopulation": 108219,
+                "children": []
+              },
+              {
+                "id": 366,
+                "label": "NHS Swindon CCG",
+                "totalPopulation": 217216,
+                "children": []
+              },
+              {
+                "id": 367,
+                "label": "NHS Tameside and Glossop CCG",
+                "totalPopulation": 253396,
+                "children": []
+              },
+              {
+                "id": 368,
+                "label": "NHS Telford & Wrekin CCG",
+                "totalPopulation": 167682,
+                "children": []
+              },
+              {
+                "id": 369,
+                "label": "NHS Thanet CCG",
+                "totalPopulation": 135661,
+                "children": []
+              },
+              {
+                "id": 370,
+                "label": "NHS Thurrock CCG",
+                "totalPopulation": 159533,
+                "children": []
+              },
+              {
+                "id": 371,
+                "label": "NHS Tower Hamlets CCG",
+                "totalPopulation": 263003,
+                "children": []
+              },
+              {
+                "id": 372,
+                "label": "NHS Trafford CCG",
+                "totalPopulation": 228466,
+                "children": []
+              },
+              {
+                "id": 373,
+                "label": "NHS Vale of York CCG",
+                "totalPopulation": 346054,
+                "children": []
+              },
+              {
+                "id": 374,
+                "label": "NHS Vale Royal CCG",
+                "totalPopulation": 102147,
+                "children": []
+              },
+              {
+                "id": 375,
+                "label": "NHS Wakefield CCG",
+                "totalPopulation": 327627,
+                "children": []
+              },
+              {
+                "id": 376,
+                "label": "NHS Walsall CCG",
+                "totalPopulation": 270924,
+                "children": []
+              },
+              {
+                "id": 377,
+                "label": "NHS Waltham Forest CCG",
+                "totalPopulation": 262566,
+                "children": []
+              },
+              {
+                "id": 378,
+                "label": "NHS Wandsworth CCG",
+                "totalPopulation": 308312,
+                "children": []
+              },
+              {
+                "id": 379,
+                "label": "NHS Warrington CCG",
+                "totalPopulation": 203652,
+                "children": []
+              },
+              {
+                "id": 380,
+                "label": "NHS Warwickshire North CCG",
+                "totalPopulation": 188005,
+                "children": []
+              },
+              {
+                "id": 381,
+                "label": "NHS West Cheshire CCG",
+                "totalPopulation": 228053,
+                "children": []
+              },
+              {
+                "id": 382,
+                "label": "NHS West Essex CCG",
+                "totalPopulation": 290006,
+                "children": []
+              },
+              {
+                "id": 383,
+                "label": "NHS West Hampshire CCG",
+                "totalPopulation": 544438,
+                "children": []
+              },
+              {
+                "id": 384,
+                "label": "NHS West Kent CCG",
+                "totalPopulation": 463650,
+                "children": []
+              },
+              {
+                "id": 385,
+                "label": "NHS West Lancashire CCG",
+                "totalPopulation": 110925,
+                "children": []
+              },
+              {
+                "id": 386,
+                "label": "NHS West Leicestershire CCG",
+                "totalPopulation": 374177,
+                "children": []
+              },
+              {
+                "id": 387,
+                "label": "NHS West London (Kensington and Chelsea, Queen\u2019s Park and Paddington) CCG",
+                "totalPopulation": 218757,
+                "children": []
+              },
+              {
+                "id": 388,
+                "label": "NHS West Norfolk CCG",
+                "totalPopulation": 171267,
+                "children": []
+              },
+              {
+                "id": 389,
+                "label": "NHS West Suffolk CCG",
+                "totalPopulation": 220985,
+                "children": []
+              },
+              {
+                "id": 390,
+                "label": "NHS Wigan Borough CCG",
+                "totalPopulation": 318670,
+                "children": []
+              },
+              {
+                "id": 391,
+                "label": "NHS Wiltshire CCG",
+                "totalPopulation": 476816,
+                "children": []
+              },
+              {
+                "id": 392,
+                "label": "NHS Windsor, Ascot and Maidenhead CCG",
+                "totalPopulation": 138974,
+                "children": []
+              },
+              {
+                "id": 393,
+                "label": "NHS Wirral CCG",
+                "totalPopulation": 320229,
+                "children": []
+              },
+              {
+                "id": 394,
+                "label": "NHS Wokingham CCG",
+                "totalPopulation": 156663,
+                "children": []
+              },
+              {
+                "id": 395,
+                "label": "NHS Wolverhampton CCG",
+                "totalPopulation": 250970,
+                "children": []
+              },
+              {
+                "id": 396,
+                "label": "NHS Wyre Forest CCG",
+                "totalPopulation": 98074,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "label": "Local Area Teams",
+            "totalPopulation": null,
+            "children": [
+              {
+                "id": 397,
+                "label": "Arden, Herefordshire and Worcestershire Area Team",
+                "totalPopulation": 1625070,
+                "children": []
+              },
+              {
+                "id": 398,
+                "label": "Bath, Gloucestershire, Swindon and Wiltshire Area Team",
+                "totalPopulation": 1473834,
+                "children": []
+              },
+              {
+                "id": 399,
+                "label": "Birmingham and the Black Country Area Team",
+                "totalPopulation": 2439584,
+                "children": []
+              },
+              {
+                "id": 400,
+                "label": "Bristol, North Somerset, Somerset and South Gloucestershire Area Team",
+                "totalPopulation": 1437933,
+                "children": []
+              },
+              {
+                "id": 401,
+                "label": "Cheshire, Warrington and Wirral Area Team",
+                "totalPopulation": 1226227,
+                "children": []
+              },
+              {
+                "id": 402,
+                "label": "Cumbria, Northumberland, Tyne and Wear Area Team",
+                "totalPopulation": 1929496,
+                "children": []
+              },
+              {
+                "id": 403,
+                "label": "Derbyshire and Nottinghamshire Area Team",
+                "totalPopulation": 1976665,
+                "children": []
+              },
+              {
+                "id": 404,
+                "label": "Devon, Cornwall and Isles of Scilly Area Team",
+                "totalPopulation": 1682853,
+                "children": []
+              },
+              {
+                "id": 405,
+                "label": "Durham, Darlington and Tees Area Team",
+                "totalPopulation": 1177982,
+                "children": []
+              },
+              {
+                "id": 406,
+                "label": "East Anglia Area Team",
+                "totalPopulation": 2446591,
+                "children": []
+              },
+              {
+                "id": 407,
+                "label": "Essex Area Team",
+                "totalPopulation": 1740888,
+                "children": []
+              },
+              {
+                "id": 408,
+                "label": "Greater Manchester Area Team",
+                "totalPopulation": 2735364,
+                "children": []
+              },
+              {
+                "id": 409,
+                "label": "Hertfordshire and the South Midlands Area Team",
+                "totalPopulation": 2678376,
+                "children": []
+              },
+              {
+                "id": 410,
+                "label": "Kent and Medway Area Team",
+                "totalPopulation": 1748384,
+                "children": []
+              },
+              {
+                "id": 411,
+                "label": "Lancashire Area Team",
+                "totalPopulation": 1465668,
+                "children": []
+              },
+              {
+                "id": 412,
+                "label": "Leicestershire and Lincolnshire Area Team",
+                "totalPopulation": 1744157,
+                "children": []
+              },
+              {
+                "id": 413,
+                "label": "London Area Team",
+                "totalPopulation": 8308369,
+                "children": []
+              },
+              {
+                "id": 414,
+                "label": "Merseyside Area Team",
+                "totalPopulation": 1191129,
+                "children": []
+              },
+              {
+                "id": 415,
+                "label": "North Yorkshire and Humber Area Team",
+                "totalPopulation": 1668379,
+                "children": []
+              },
+              {
+                "id": 416,
+                "label": "Shropshire and Staffordshire Area Team",
+                "totalPopulation": 1577915,
+                "children": []
+              },
+              {
+                "id": 417,
+                "label": "South Yorkshire and Bassetlaw Area Team",
+                "totalPopulation": 1465322,
+                "children": []
+              },
+              {
+                "id": 418,
+                "label": "Surrey and Sussex Area Team",
+                "totalPopulation": 2712052,
+                "children": []
+              },
+              {
+                "id": 419,
+                "label": "Thames Valley Area Team",
+                "totalPopulation": 2043418,
+                "children": []
+              },
+              {
+                "id": 420,
+                "label": "Wessex Area Team",
+                "totalPopulation": 2707969,
+                "children": []
+              },
+              {
+                "id": 421,
+                "label": "West Yorkshire Area Team",
+                "totalPopulation": 2290104,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "label": "NHS Regions",
+            "totalPopulation": null,
+            "children": [
+              {
+                "id": 422,
+                "label": "London Region",
+                "totalPopulation": 8308369,
+                "children": []
+              },
+              {
+                "id": 423,
+                "label": "Midlands and East of England",
+                "totalPopulation": 16229246,
+                "children": []
+              },
+              {
+                "id": 424,
+                "label": "North of England",
+                "totalPopulation": 15149671,
+                "children": []
+              },
+              {
+                "id": 425,
+                "label": "South of England",
+                "totalPopulation": 13806443,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Scotland",
+        "totalPopulation": null,
+        "children": [
+          {
+            "id": 9,
+            "label": "NHS Board Areas",
+            "totalPopulation": null,
+            "children": [
+              {
+                "id": 426,
+                "label": "Ayrshire & Arran NHS Board",
+                "totalPopulation": 373189,
+                "children": []
+              },
+              {
+                "id": 427,
+                "label": "Borders NHS Board",
+                "totalPopulation": 113707,
+                "children": []
+              },
+              {
+                "id": 428,
+                "label": "Dumfries & Galloway NHS Board",
+                "totalPopulation": 150828,
+                "children": []
+              },
+              {
+                "id": 429,
+                "label": "Fife NHS Board",
+                "totalPopulation": 366219,
+                "children": []
+              },
+              {
+                "id": 430,
+                "label": "Forth Valley NHS Board",
+                "totalPopulation": 299099,
+                "children": []
+              },
+              {
+                "id": 431,
+                "label": "Grampian NHS Board",
+                "totalPopulation": 573420,
+                "children": []
+              },
+              {
+                "id": 432,
+                "label": "Greater Glasgow & Clyde NHS Board",
+                "totalPopulation": 1217025,
+                "children": []
+              },
+              {
+                "id": 433,
+                "label": "Highland NHS Board",
+                "totalPopulation": 319811,
+                "children": []
+              },
+              {
+                "id": 434,
+                "label": "Lanarkshire NHS Board",
+                "totalPopulation": 572520,
+                "children": []
+              },
+              {
+                "id": 435,
+                "label": "Lothian NHS Board",
+                "totalPopulation": 843733,
+                "children": []
+              },
+              {
+                "id": 436,
+                "label": "Orkney NHS Board",
+                "totalPopulation": 21530,
+                "children": []
+              },
+              {
+                "id": 437,
+                "label": "Shetland NHS Board",
+                "totalPopulation": 23210,
+                "children": []
+              },
+              {
+                "id": 438,
+                "label": "Tayside NHS Board",
+                "totalPopulation": 411749,
+                "children": []
+              },
+              {
+                "id": 439,
+                "label": "Western Isles NHS Board",
+                "totalPopulation": 27560,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Wales",
+        "totalPopulation": null,
+        "children": [
+          {
+            "id": 10,
+            "label": "Local Health Boards",
+            "totalPopulation": null,
+            "children": [
+              {
+                "id": 440,
+                "label": "Abertawe Bro Morgannwg University Local Health Board",
+                "totalPopulation": 578884,
+                "children": []
+              },
+              {
+                "id": 441,
+                "label": "Aneurin Bevan Local Health Board",
+                "totalPopulation": 314794,
+                "children": []
+              },
+              {
+                "id": 442,
+                "label": "Betsi Cadwaladr University Local Health Board",
+                "totalPopulation": 487327,
+                "children": []
+              },
+              {
+                "id": 443,
+                "label": "Cardiff and Vale University Local Health Board",
+                "totalPopulation": 484709,
+                "children": []
+              },
+              {
+                "id": 444,
+                "label": "Cwm Taf Local Health Board",
+                "totalPopulation": 177712,
+                "children": []
+              },
+              {
+                "id": 445,
+                "label": "Hywel Dda Local Health Board",
+                "totalPopulation": 387374,
+                "children": []
+              },
+              {
+                "id": 446,
+                "label": "Other Private Healthcare Providers",
+                "totalPopulation": 578884,
+                "children": []
+              },
+              {
+                "id": 447,
+                "label": "Powys Teaching Local Health Board",
+                "totalPopulation": 26392,
+                "children": []
+              },
+              {
+                "id": 448,
+                "label": "Velindre NHS Trust",
+                "totalPopulation": 348229,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "label": "Northern Ireland",
+        "totalPopulation": null,
+        "children": [
+          {
+            "id": 11,
+            "label": "HSCT Regions",
+            "totalPopulation": null,
+            "children": [
+              {
+                "id": 449,
+                "label": "Belfast Care Trust",
+                "totalPopulation": 167845,
+                "children": []
+              },
+              {
+                "id": 450,
+                "label": "Northern Care Trust",
+                "totalPopulation": 228291,
+                "children": []
+              },
+              {
+                "id": 451,
+                "label": "South Eastern Care Trust",
+                "totalPopulation": 170662,
+                "children": []
+              },
+              {
+                "id": 452,
+                "label": "Southern Care Trust",
+                "totalPopulation": 180484,
+                "children": []
+              },
+              {
+                "id": 453,
+                "label": "Western Care Trust",
+                "totalPopulation": 147266,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "selected": {
+      "ids": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "sum": 6088558
+    },
+    "lastOperation": "MODE_PRESET"
+  }
+}

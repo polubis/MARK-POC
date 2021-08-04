@@ -1,7 +1,11 @@
 <div class="layout">
   <nav></nav>
 
-  <main></main>
+  <main>
+    <app-epi-forecast-builder
+      [chartData]="epiForecastData">
+    </app-epi-forecast-builder>
+  </main>
 
   <aside>
       <app-epi-forecast-form-container></app-epi-forecast-form-container>

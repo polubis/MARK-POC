@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { BehaviorSubject, of } from 'rxjs';
 import { delay, tap } from 'rxjs/operators';
+import * as EpiForecastJson from './api/epi-forecast.json';
 
 const DATA = {
   epiForecast: null,
@@ -11,10 +12,14 @@ export class ResultsProvider {
   private _data = new BehaviorSubject(DATA);
   data$ = this._data.asObservable();
 
+  getEpiForecast = () => {
+    return of(EpiForecastJson);
+  }
+
   updateEpiForecast = (payload: any) => {
     // Data
     console.log(payload);
-    return of().pipe(
+    return of(EpiForecastJson).pipe(
       delay(300),
       tap((epiForecast: any) => {
         this._data.next({

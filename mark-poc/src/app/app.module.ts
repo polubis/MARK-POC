@@ -8,6 +8,8 @@ import {MatRadioModule} from '@angular/material/radio';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import { EpiForecastFormComponent } from './epi-forecast-form.component';
 import { EpiForecastFormContainer } from './epi-forecast-form.container';
+import {ChartPresenterModule} from "./chart-presenter/chart-presenter.module";
+import {ChartBuilderModule} from "./chart-builder/chart-builder.module";
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { EpiForecastFormContainer } from './epi-forecast-form.container';
     ReactiveFormsModule,
     AppRoutingModule,
     MatRadioModule,
-    MatCheckboxModule
+    MatCheckboxModule,
+    ChartPresenterModule,
+    ChartBuilderModule
   ],
   providers: [],
   bootstrap: [AppComponent]
