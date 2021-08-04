@@ -10,7 +10,10 @@ import { ResultsProvider } from './results.provider';
 export class AppComponent implements OnInit {
   data$ = this.resultsProvider.data$;
 
-  constructor(private resultsProvider: ResultsProvider) {}
+  constructor(
+    private resultsProvider: ResultsProvider
+  ) {
+  }
 
   ngOnInit() {
     this.getEpiForecastData();

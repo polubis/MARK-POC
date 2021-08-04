@@ -7,9 +7,8 @@ export interface EpiForecastDynamicChart {
   title?: Object;
   subtitle?: Object;
   xAxis?: {
-    type?: AxisTypeValue;
-    labels?: any;
-    categories: any;
+    crosshair?: boolean;
+    categories?: any;
   };
   yAxis?: Object;
   labels?: Object;
@@ -35,9 +34,12 @@ export interface EpiForecastStaticChart {
 export function getObjectConfigForDynamicChart(): EpiForecastDynamicChart {
   return {
     chart: {
-      type: 'waterfall',
+      type: 'column',
       renderTo: 'chart',
-      marginBottom: 140,
+    },
+    series: [],
+    credits: {
+      enabled: false,
     },
     title: {
       text: null,
@@ -46,60 +48,44 @@ export function getObjectConfigForDynamicChart(): EpiForecastDynamicChart {
       text: null,
     },
     xAxis: {
-      type: 'category',
-      labels: {
-        align: 'right',
-        rotation: -37,
-        style: {
-          fontSize: '11px',
-          fontFamily: 'Roboto, sans-serif',
-        },
-        formatter: function () {
-          var newValue = '' + this.value; // Cast to string
-          newValue = newValue.replace(/&nbsp;/gi, ''); // Remove &nbsp; from label
-          return newValue;
-        },
-        zIndex: -1,
-      },
-      categories: null,
+      crosshair: true,
     },
     yAxis: {
-      title: null,
-      endOnTick: false,
-      startOnTick: false,
+      min: 0,
+      title: {
+        text: '',
+      },
+    },
+    labels: {
+      items: [
+        {
+          html: '',
+          style: {
+            left: '50px',
+            top: '18px',
+            color: 'black',
+          },
+        },
+      ],
     },
     legend: {
       enabled: false,
     },
-    credits: {
-      enabled: false,
-    },
     tooltip: {
-      formatter: function () {
-        // let labelName = this.points[0].key;
-        // let roundPatients = Math.ceil(this.y);
-        // return labelName + `<br><b>${roundPatients}</b> patients`; // TODO filter number
-        return 'test todo';
-      },
       shared: true,
+      useHTML: true,
     },
     plotOptions: {
-      series: {
-        borderWidth: 0,
-        stickyTracking: true,
-      },
       column: {
-        minPointLength: 100000,
+        stacking: 'normal',
+        dataLabels: {
+          enabled: false,
+        },
+      },
+      series: {
+        animation: false,
       },
     },
-    series: [
-      {
-        upColor: 'rgba(32,154,187,1)',
-        color: 'rgba(32,154,187,1)',
-        data: [],
-        pointPadding: 0,
-      },
-    ],
     exporting: {},
   };
 }

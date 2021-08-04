@@ -15,7 +15,7 @@ export interface EpiForecastSingleSeries {
     field: number;
     input: number;
     output: number;
-  };
+  }[];
 }
 
 
@@ -34,42 +34,16 @@ export class EpiForecastBuilderComponent implements OnInit {
   prepareData(yearData: EpiForecastSingleSeries[]) {
     let chartData = getObjectConfigForDynamicChart();
 
-    let yearChart = [];
+    let ser: any = [];
 
-    console.log(chartData);
+    yearData.forEach(e => {
+      ser.push({
+        name: e.name,
+        data: [e.years[0].output]
+      });
+    })
 
-    yearData.forEach((labelRow) => {
-      // If a label is disabled, no bar should be displayed for it
-      if (!labelRow.isEnabled) {
-        return;
-      }
-
-      // Determine if y-axis value is starter value or waterfall minus value
-      let yAxisValue: number;
-      if (labelRow.fieldType == 'number') {
-        yAxisValue = labelRow.years.input;
-      } else {
-        yAxisValue = -labelRow.years.diff;
-      }
-
-      let newBar = {
-        name: labelRow.name,
-        y: yAxisValue,
-        color: 'rgba(32,154,187,1)',
-      };
-
-      yearChart.push(newBar);
-    });
-
-    // Add total bar
-    yearChart.push({
-      name: 'Total',
-      isSum: true,
-      color: 'rgba(32,154,187,1)',
-    });
-
-    chartData.series[0].data = yearChart;
-
+    chartData.series = ser;
     this.chartData = chartData;
   }
 
