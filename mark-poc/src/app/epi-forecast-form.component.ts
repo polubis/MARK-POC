@@ -27,6 +27,11 @@ export class EpiForecastFormComponent {
     { label: 'Same top down forecast value for each year', checked: false },
   ];
 
+  additionalOptions = [
+    { label: 'Include incidence', checked: false },
+    { label: 'Include disease prevelance (first year)', checked: false },
+  ];
+
   constructor() {
     this.form = new FormGroup({
       forecastType: new FormControl(null),
@@ -36,21 +41,16 @@ export class EpiForecastFormComponent {
           {}
         )
       ),
-      additionalOptions: new FormControl([]),
+      additionalOptions: new FormGroup(
+        this.additionalOptions.reduce(
+          (acc, ts) => ({ ...acc, [ts.label]: new FormControl(false) }),
+          {}
+        )
+      ),
     });
 
     this.valueChanged$ = this.form.valueChanges.pipe(
       tap((value) => this.changed.emit(value))
     );
   }
-
-  handleTimeSettingCheck = ({ checked }: any, timeSetting: any) => {
-    const { timeSettings } = this.form.value;
-    console.log(timeSettings);
-    this.form.setValue({
-      timeSettings: timeSettings.map((ts: any) =>
-        ts.label === timeSetting.label ? { ...ts, checked } : ts
-      ),
-    });
-  };
 }

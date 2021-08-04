@@ -17,20 +17,26 @@
     </mat-radio-group>
   </fieldset>
 
-  <fieldset>
+  <fieldset formGroupName="timeSettings">
     <label>Time settings</label>
 
     <mat-checkbox
       class="example-margin"
       *ngFor="let timeSetting of timeSettings"
-      [checked]="timeSetting.checked"
-      (change)="handleTimeSettingCheck($event, timeSetting)"
-      >Checked</mat-checkbox
+      [formControlName]="timeSetting.label"
+      >{{ timeSetting.label }}</mat-checkbox
     >
   </fieldset>
 
-  <fieldset>
+  <fieldset formGroupName="additionalOptions">
     <label>Additional options</label>
+
+    <mat-checkbox
+      class="example-margin"
+      *ngFor="let additionalOption of additionalOptions"
+      [formControlName]="additionalOption.label"
+      >{{ additionalOption.label }}</mat-checkbox
+    >
   </fieldset>
 </form>
 
