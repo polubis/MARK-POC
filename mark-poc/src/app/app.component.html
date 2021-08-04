@@ -2,10 +2,11 @@
   <nav></nav>
 
   <main *ngIf="data$ | async as data">
-    <app-epi-forecast-builder *ngIf="data" [chartData]="data"> </app-epi-forecast-builder>
+    <!-- <app-epi-forecast-builder *ngIf="data.epiForecast" [chartData]="data.epiForecast"></app-epi-forecast-builder> -->
   </main>
 
   <aside>
-    <app-epi-forecast-form-container></app-epi-forecast-form-container>
+    <app-epi-forecast-form-container ></app-epi-forecast-form-container>
   </aside>
 </div>
+

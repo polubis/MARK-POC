@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { BehaviorSubject, of } from 'rxjs';
-import { delay, tap } from 'rxjs/operators';
+import { BehaviorSubject, Observable, of, Subject, Subscription } from 'rxjs';
+import { switchMap, tap } from 'rxjs/operators';
 import * as EpiForecastJson from './api/epi-forecast.json';
 
 const DATA = {
@@ -9,28 +9,63 @@ const DATA = {
 
 @Injectable({ providedIn: 'root' })
 export class ResultsProvider {
+  private _subs = new Subscription();
+
+  private _event = new Subject<{
+    obs$: Observable<any>;
+    map: (res: any, data: any) => any;
+  }>();
+  event$ = this._event.asObservable();
+
   private _data = new BehaviorSubject(DATA);
   data$ = this._data.asObservable();
 
-  getEpiForecast = () => {
-    return of(EpiForecastJson).pipe(
-      tap((data) => {
-        this._data.next(data as any);
-      })
+  constructor() {
+    this._subs.add(
+      this.event$
+        .pipe(
+          switchMap(({ obs$, map }) =>
+            obs$.pipe(
+              tap((res) => {
+                console.log('Siema from results provider');
+                this._data.next(map(res, this._data.getValue()));
+              })
+            )
+          )
+        )
+        .subscribe()
     );
+  }
+
+  getEpiForecast = () => {
+    const obs$ = of(EpiForecastJson);
+
+    this._event.next({
+      obs$,
+      map: (res, data) => ({
+        ...data,
+        epiForecast: res,
+      }),
+    });
+
+    return obs$;
   };
 
   updateEpiForecast = (payload: any) => {
-    // Data
-    console.log(payload);
-    return of(EpiForecastJson).pipe(
-      delay(300),
-      tap((epiForecast: any) => {
-        this._data.next({
-          ...this._data.getValue(),
-          epiForecast,
-        });
-      })
-    );
+    const obs$ = of(EpiForecastJson);
+
+    this._event.next({
+      obs$, // here will be api call
+      map: (res, data) => ({
+        ...data,
+        epiForecast: res,
+      }),
+    });
+
+    return obs$;
+  };
+
+  unsubscribe = () => {
+    this._subs.unsubscribe();
   };
 }

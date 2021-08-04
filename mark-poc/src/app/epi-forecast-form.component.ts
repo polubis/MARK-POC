@@ -1,7 +1,7 @@
 import { Component, Output, EventEmitter } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
 import { Observable } from 'rxjs';
-import { tap } from 'rxjs/operators';
+import { debounceTime, tap } from 'rxjs/operators';
 
 @Component({
   selector: 'app-epi-forecast-form-component',
@@ -50,6 +50,7 @@ export class EpiForecastFormComponent {
     });
 
     this.valueChanged$ = this.form.valueChanges.pipe(
+      debounceTime(150),
       tap((value) => this.changed.emit(value))
     );
   }

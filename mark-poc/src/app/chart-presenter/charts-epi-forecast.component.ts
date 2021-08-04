@@ -1,13 +1,5 @@
-import {
-  Component,
-  Input,
-  OnChanges,
-  OnInit,
-  SimpleChanges,
-} from '@angular/core';
+import { Component, Input, OnInit, SimpleChanges } from '@angular/core';
 import * as Highcharts from 'highcharts-newest';
-
-import { EpiForecastDynamicChart } from './config/epi-forecast';
 
 @Component({
   selector: 'app-chart-epi-forecast',

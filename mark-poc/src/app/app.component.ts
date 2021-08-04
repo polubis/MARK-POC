@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { tap } from 'rxjs/operators';
 import { ResultsProvider } from './results.provider';
 
 @Component({
@@ -16,6 +17,13 @@ export class AppComponent implements OnInit {
   }
 
   getEpiForecastData = () => {
-    this.resultsProvider.getEpiForecast().subscribe();
+    this.resultsProvider
+      .getEpiForecast()
+      .pipe(
+        tap((r) => {
+          console.log('siema from AppComponent');
+        })
+      )
+      .subscribe();
   };
 }
