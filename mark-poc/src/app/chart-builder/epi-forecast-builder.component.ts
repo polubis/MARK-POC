@@ -28,7 +28,7 @@ export class EpiForecastBuilderComponent implements OnInit {
   @Input() chartData: any;
 
   ngOnInit() {
-    this.prepareData(this.chartData);
+    this.prepareData(this.chartData.data.labels);
   }
 
   prepareData(yearData: EpiForecastSingleSeries[]) {

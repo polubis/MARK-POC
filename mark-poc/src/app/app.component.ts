@@ -21,6 +21,7 @@ export class AppComponent implements OnInit {
       .getEpiForecast()
       .pipe(
         tap((r) => {
+          console.log(r);
           console.log('siema from AppComponent');
         })
       )

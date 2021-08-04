@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { BehaviorSubject, Observable, of, Subject, Subscription } from 'rxjs';
 import { switchMap, tap } from 'rxjs/operators';
-import * as EpiForecastJson from './api/epi-forecast.json';
+import EpiForecastJson from './api/epi-forecast.json';
 
 const DATA = {
   epiForecast: null,
