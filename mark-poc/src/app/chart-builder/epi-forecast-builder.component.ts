@@ -36,6 +36,8 @@ export class EpiForecastBuilderComponent implements OnInit {
 
     let yearChart = [];
 
+    console.log(chartData);
+
     yearData.forEach((labelRow) => {
       // If a label is disabled, no bar should be displayed for it
       if (!labelRow.isEnabled) {

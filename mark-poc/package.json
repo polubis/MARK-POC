@@ -22,6 +22,7 @@
     "@angular/router": "~12.0.3",
     "highcharts": "^9.1.2",
     "highcharts-angular": "^2.10.0",
+    "highcharts-newest": "npm:highcharts@^8.1.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.1.0",
     "zone.js": "~0.11.4"

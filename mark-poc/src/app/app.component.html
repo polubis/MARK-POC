@@ -1,13 +1,11 @@
 <div class="layout">
   <nav></nav>
 
-  <main>
-    <app-epi-forecast-builder
-      [chartData]="epiForecastData">
-    </app-epi-forecast-builder>
+  <main *ngIf="data$ | async as data">
+    <app-epi-forecast-builder *ngIf="data" [chartData]="data"> </app-epi-forecast-builder>
   </main>
 
   <aside>
-      <app-epi-forecast-form-container></app-epi-forecast-form-container>
+    <app-epi-forecast-form-container></app-epi-forecast-form-container>
   </aside>
 </div>

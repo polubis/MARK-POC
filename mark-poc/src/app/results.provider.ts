@@ -13,8 +13,12 @@ export class ResultsProvider {
   data$ = this._data.asObservable();
 
   getEpiForecast = () => {
-    return of(EpiForecastJson);
-  }
+    return of(EpiForecastJson).pipe(
+      tap((data) => {
+        this._data.next(data as any);
+      })
+    );
+  };
 
   updateEpiForecast = (payload: any) => {
     // Data

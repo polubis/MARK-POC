@@ -1,38 +1,21 @@
-import {Component, OnInit} from '@angular/core';
-import {ResultsProvider} from "./results.provider";
-import {switchMap, tap} from "rxjs/operators";
-import {Observable, of} from "rxjs";
-import epiForecastData from './api/epi-forecast.json';
-
+import { Component, OnInit } from '@angular/core';
+import { ResultsProvider } from './results.provider';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
 })
 export class AppComponent implements OnInit {
-  title = 'mark-poc';
+  data$ = this.resultsProvider.data$;
 
-  constructor(
-    private resultsProvider: ResultsProvider
-  ) {
-  }
-
-  epiForecastData: any = null;
+  constructor(private resultsProvider: ResultsProvider) {}
 
   ngOnInit() {
-    console.log(epiForecastData);
-    this.epiForecastData = epiForecastData.data.labels;
+    this.getEpiForecastData();
   }
 
   getEpiForecastData = () => {
-    this.resultsProvider
-      .getEpiForecast()
-      .pipe(
-        tap((results) => {
-          console.log(results);
-        })
-      )
-      .subscribe();
-  }
+    this.resultsProvider.getEpiForecast().subscribe();
+  };
 }
