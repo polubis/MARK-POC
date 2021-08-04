@@ -1,5 +1,12 @@
-import { Component } from '@angular/core';
+import { Component, Output, EventEmitter } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
+import { tap } from 'rxjs/operators';
+
+const form = new FormGroup({
+  forecastType: new FormControl(null),
+  timeSettings: new FormControl(''),
+  additionalOptions: new FormControl(''),
+});
 
 @Component({
   selector: 'app-epi-forecast-form-component',
@@ -7,11 +14,9 @@ import { FormControl, FormGroup } from '@angular/forms';
   styleUrls: ['./epi-forecast-form.component.scss'],
 })
 export class EpiForecastFormComponent {
-  form = new FormGroup({
-    forecastType: new FormControl(null),
-    timeSettings: new FormControl(''),
-    additionalOptions: new FormControl(''),
-  });
+  @Output() changed = new EventEmitter<typeof form>();
+
+  form = form;
 
   forecastTypes = [
     {
@@ -21,4 +26,8 @@ export class EpiForecastFormComponent {
       label: 'Include patients number to define',
     },
   ];
+
+  valueChanged$ = this.form.valueChanges.pipe(
+    tap((value) => this.changed.emit(value))
+  );
 }
