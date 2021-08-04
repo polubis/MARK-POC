@@ -1,4 +1,4 @@
-import { AxisTypeValue } from 'highcharts';
+import { AxisTypeValue } from 'highcharts-newest';
 
 export interface EpiForecastDynamicChart {
   chart?: Object;
