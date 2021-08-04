@@ -1,0 +1,21 @@
+<form [formGroup]="form">
+  <fieldset>
+    <label id="example-radio-group-label">Pick your favorite season</label>
+    <mat-radio-group
+      aria-labelledby="example-radio-group-label"
+      class="example-radio-group"
+      formControlName="forecastType"
+    >
+      <mat-radio-button
+        class="example-radio-button"
+        *ngFor="let forecastType of forecastTypes"
+        [value]="forecastType"
+      >
+        {{ forecastType.label }}
+      </mat-radio-button>
+    </mat-radio-group>
+    <pre>
+        {{ form.value | json }}
+    </pre>
+  </fieldset>
+</form>

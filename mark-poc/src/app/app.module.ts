@@ -4,16 +4,20 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import {MatRadioModule} from '@angular/material/radio';
+import { EpiForecastFormComponent } from './epi-forecast-form.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    EpiForecastFormComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     ReactiveFormsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatRadioModule
   ],
   providers: [],
   bootstrap: [AppComponent]
