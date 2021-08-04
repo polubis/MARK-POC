@@ -1,7 +1,7 @@
 <ng-container *ngIf="valueChanged$ | async"></ng-container>
 <form [formGroup]="form">
   <fieldset>
-    <label id="example-radio-group-label">Pick your favorite season</label>
+    <label>Forecast type</label>
     <mat-radio-group
       aria-labelledby="example-radio-group-label"
       class="example-radio-group"
@@ -15,8 +15,25 @@
         {{ forecastType.label }}
       </mat-radio-button>
     </mat-radio-group>
-    <pre>
-        {{ form.value | json }}
-    </pre>
+  </fieldset>
+
+  <fieldset>
+    <label>Time settings</label>
+
+    <mat-checkbox
+      class="example-margin"
+      *ngFor="let timeSetting of timeSettings"
+      [checked]="timeSetting.checked"
+      (change)="handleTimeSettingCheck($event, timeSetting)"
+      >Checked</mat-checkbox
+    >
+  </fieldset>
+
+  <fieldset>
+    <label>Additional options</label>
   </fieldset>
 </form>
+
+<pre>
+    {{ form.value | json }}
+</pre>
