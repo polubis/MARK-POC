@@ -1,5 +1,5 @@
-import { Component, Input, OnChanges, OnInit, SimpleChanges } from '@angular/core';
-import {getObjectConfigForDynamicChart} from "../chart-presenter/config/epi-forecast";
+import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
+import { getObjectConfigForDynamicChart } from '../chart-presenter/config/epi-forecast';
 
 export interface EpiForecastSingleSeries {
   id: number;
@@ -18,17 +18,30 @@ export interface EpiForecastSingleSeries {
   }[];
 }
 
-
 @Component({
   selector: 'app-epi-forecast-builder',
-  template: `<app-chart-epi-forecast [data]="chartData"></app-chart-epi-forecast>`,
+  template: `<app-chart-epi-forecast
+  [id]="'chart'"
+    [data]="preparedData"
+  ></app-chart-epi-forecast>`,
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class EpiForecastBuilderComponent implements OnInit {
+export class EpiForecastBuilderComponent {
+  private _chartData: any;
 
-  @Input() chartData: any;
+  preparedData: any;
 
-  ngOnInit() {
-    this.prepareData(this.chartData.data.labels);
+  get chartData(): any {
+    return this._chartData;
+  }
+
+  @Input()
+  set chartData(value: any) {
+    this._chartData = value;
+
+    if (value) {
+      this.prepareData(value.data.labels);
+    }
   }
 
   prepareData(yearData: EpiForecastSingleSeries[]) {
@@ -36,15 +49,14 @@ export class EpiForecastBuilderComponent implements OnInit {
 
     let ser: any = [];
 
-    yearData.forEach(e => {
+    yearData.forEach((e) => {
       ser.push({
         name: e.name,
-        data: [e.years[0].output]
+        data: [e.years[0].output],
       });
-    })
+    });
 
     chartData.series = ser;
-    this.chartData = chartData;
+    this.preparedData = chartData;
   }
-
 }

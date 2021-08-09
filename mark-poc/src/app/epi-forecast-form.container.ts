@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { ResultsProvider } from './results.provider';
 
 @Component({
@@ -9,6 +9,7 @@ import { ResultsProvider } from './results.provider';
     >
     </app-epi-forecast-form-component>
   `,
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class EpiForecastFormContainer {
   constructor(private _resultsProvider: ResultsProvider) {}

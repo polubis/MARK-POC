@@ -1,4 +1,9 @@
-import { Component, Output, EventEmitter } from '@angular/core';
+import {
+  Component,
+  Output,
+  EventEmitter,
+  ChangeDetectionStrategy,
+} from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
 import { Observable } from 'rxjs';
 import { debounceTime, tap } from 'rxjs/operators';
@@ -7,6 +12,7 @@ import { debounceTime, tap } from 'rxjs/operators';
   selector: 'app-epi-forecast-form-component',
   templateUrl: './epi-forecast-form.component.html',
   styleUrls: ['./epi-forecast-form.component.scss'],
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class EpiForecastFormComponent {
   @Output() changed = new EventEmitter<FormGroup>();

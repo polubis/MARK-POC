@@ -1,71 +1,38 @@
 import { Injectable } from '@angular/core';
-import { BehaviorSubject, Observable, of, Subject, Subscription } from 'rxjs';
-import { switchMap, tap } from 'rxjs/operators';
-import EpiForecastJson from './api/epi-forecast.json';
+import { of } from 'rxjs';
+import { delay } from 'rxjs/operators';
 
-const DATA = {
-  epiForecast: null,
-};
+import EpiForecastJson from './api/epi-forecast.json';
+import { ChartsStore } from './charts.store';
 
 @Injectable({ providedIn: 'root' })
 export class ResultsProvider {
-  private _subs = new Subscription();
+  data$ = this._chartsStore.data$;
 
-  private _event = new Subject<{
-    obs$: Observable<any>;
-    map: (res: any, data: any) => any;
-  }>();
-  event$ = this._event.asObservable();
-
-  private _data = new BehaviorSubject(DATA);
-  data$ = this._data.asObservable();
-
-  constructor() {
-    this._subs.add(
-      this.event$
-        .pipe(
-          switchMap(({ obs$, map }) =>
-            obs$.pipe(
-              tap((res) => {
-                console.log('Siema from results provider');
-                this._data.next(map(res, this._data.getValue()));
-              })
-            )
-          )
-        )
-        .subscribe()
-    );
-  }
+  constructor(private _chartsStore: ChartsStore) {}
 
   getEpiForecast = () => {
-    const obs$ = of(EpiForecastJson);
-
-    this._event.next({
-      obs$,
-      map: (res, data) => ({
-        ...data,
-        epiForecast: res,
-      }),
-    });
-
-    return obs$;
+    this._chartsStore.dispatchLoad(
+      'epiForecast',
+      of(EpiForecastJson).pipe(delay(300)),
+      (value, r) => r
+    );
   };
 
   updateEpiForecast = (payload: any) => {
-    const obs$ = of(EpiForecastJson);
+    const obs$ = of({
+      ...EpiForecastJson,
+      data: {
+        ...EpiForecastJson.data,
+        labels: [
+          ...EpiForecastJson.data.labels,
+          {
+            ...EpiForecastJson.data.labels[0],
+          },
+        ],
+      },
+    }).pipe(delay(3000));
 
-    this._event.next({
-      obs$, // here will be api call
-      map: (res, data) => ({
-        ...data,
-        epiForecast: res,
-      }),
-    });
-
-    return obs$;
-  };
-
-  unsubscribe = () => {
-    this._subs.unsubscribe();
+    this._chartsStore.dispatchUpdate('epiForecast', obs$, (value, r) => r);
   };
 }
